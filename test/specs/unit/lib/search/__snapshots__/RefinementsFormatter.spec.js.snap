@@ -1,0 +1,2690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RefinementsFormatter RefinementsFormatter.format should be able to format ES response 1`] = `
+Array [
+  Object {
+    "category": "Miscellaneous",
+    "field": "BlankConsigneesExcluded",
+    "totalCount": 15,
+  },
+  Object {
+    "category": "",
+    "field": "Consignee",
+    "refinements": Array [
+      Object {
+        "count": 3654,
+        "name": "BANANA REPUBLIC LLC",
+      },
+      Object {
+        "count": 235,
+        "name": "APPLE TREE INTERNATIONAL",
+      },
+      Object {
+        "count": 105,
+        "name": "BANANA REPUBLIC, LLC.",
+      },
+      Object {
+        "count": 91,
+        "name": "APPLE COMPUTER, INC. C/O OHL",
+      },
+      Object {
+        "count": 89,
+        "name": "BANANA REPUBLIC, LLC ( BANANA REPUB",
+      },
+      Object {
+        "count": 35,
+        "name": "APPLE STAR ENTERPRISE",
+      },
+      Object {
+        "count": 30,
+        "name": "BANANA REPUBLIC,LLC",
+      },
+      Object {
+        "count": 24,
+        "name": "BANANA REPUBLIC, LLC",
+      },
+      Object {
+        "count": 23,
+        "name": "BANANA REPUBLIC, LLC (BANANA REPUBL",
+      },
+      Object {
+        "count": 22,
+        "name": "BANANA REPUBLIC, LLC ( BANANA REP",
+      },
+      Object {
+        "count": 13,
+        "name": "BANANA REPUBLIC.LLC",
+      },
+      Object {
+        "count": 13,
+        "name": "GREEN APPLE LIFESTYLE, INC",
+      },
+      Object {
+        "count": 11,
+        "name": "BANANA PEBUBLIC, LLC",
+      },
+      Object {
+        "count": 10,
+        "name": "BANANA REBUBLIC LLC",
+      },
+      Object {
+        "count": 9,
+        "name": "APPLE EVENT SUPPLIES, INC.",
+      },
+      Object {
+        "count": 8,
+        "name": "APPLE EVENT SUPPLIES INC.",
+      },
+      Object {
+        "count": 7,
+        "name": "BANANA REPUBLIC",
+      },
+      Object {
+        "count": 5,
+        "name": "APPLE INC",
+      },
+      Object {
+        "count": 4,
+        "name": "APPLE EVENT SUPPLIER INC.",
+      },
+      Object {
+        "count": 4,
+        "name": "APPLE EVENT SUPPLIES INC",
+      },
+      Object {
+        "count": 3,
+        "name": "APPLE CUPERTINO",
+      },
+      Object {
+        "count": 3,
+        "name": "GOLDEN BANANA, INC",
+      },
+      Object {
+        "count": 2,
+        "name": "APPLE CAMPUS 2",
+      },
+      Object {
+        "count": 2,
+        "name": "APPLE TREE INTERNATIONAL CORP.",
+      },
+      Object {
+        "count": 2,
+        "name": "GOLDEN BANANA INC",
+      },
+      Object {
+        "count": 2,
+        "name": "GOLDEN BANANA,INC",
+      },
+      Object {
+        "count": 2,
+        "name": "GREEN APPLE BOOKS",
+      },
+      Object {
+        "count": 2,
+        "name": "GREEN APPLE LIFESTYLE INC",
+      },
+      Object {
+        "count": 2,
+        "name": "GREEN APPLE LIFESTYLE,INC.",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE (SANTA ROSA)",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE (SANTA ROSA), C/O CEVA",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE - VARIOUS PROJECTS",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE EVENT SUPPLIES,INC.",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE GREEN BISTNO",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE GREEN INC",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE ON TOP",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE PARK",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE SECURESHIP",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE TREE HOUSE INC.",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE TREE INTERNATIONA",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE WAREHOUSE",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE, DARYLL",
+      },
+      Object {
+        "count": 1,
+        "name": "AUNTY APPLE AND PRODUCTIONS",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA FASHION LAND LLC",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA JOE INC.",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA PRODUCTS LLC",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA REPUBLIC LL",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA REPUBLIC LLC 2 FOLSOM",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA REPUBLIC LLC, 2 FOLSOM STREE",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA REPUBLIC LLCV",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA REPUBLIC, LLC (BANANA REPU",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA REPUBLIC, LLCONAL",
+      },
+      Object {
+        "count": 1,
+        "name": "BLF BIG APPLE LLC",
+      },
+      Object {
+        "count": 1,
+        "name": "CEMEX APPLE VALLEY",
+      },
+      Object {
+        "count": 1,
+        "name": "ETS-LINDGREN C/O APPLE BEATS",
+      },
+      Object {
+        "count": 1,
+        "name": "JOHNNY APPLE",
+      },
+      Object {
+        "count": 1,
+        "name": "KIRACO LLC DBA APPLE ON TOP",
+      },
+      Object {
+        "count": 1,
+        "name": "PHILIPS C/O APPLE UTC C/O CEVA",
+      },
+      Object {
+        "count": 1,
+        "name": "SHENZHENSHI BANANA CO, LTD",
+      },
+      Object {
+        "count": 1,
+        "name": "SHOTPUT/BANANA PRODUCTS LLC",
+      },
+      Object {
+        "count": 1,
+        "name": "STONE APPLE FIREPLACE",
+      },
+      Object {
+        "count": 1,
+        "name": "SWANK BANANA MARKETING, LLC.",
+      },
+      Object {
+        "count": 1,
+        "name": "THE APPLE PROJECT IS IN SAN FRANCI",
+      },
+    ],
+    "totalRefinements": 63,
+  },
+  Object {
+    "category": "Location",
+    "field": "ConsigneeCity",
+    "refinements": Array [
+      Object {
+        "count": 3939,
+        "name": "SAN FRANCISCO",
+      },
+      Object {
+        "count": 118,
+        "name": "RANCHO CUCAMONGA",
+      },
+      Object {
+        "count": 95,
+        "name": "RANCHO",
+      },
+      Object {
+        "count": 95,
+        "name": "RIALTO",
+      },
+      Object {
+        "count": 53,
+        "name": "SAN FRANSISCO",
+      },
+      Object {
+        "count": 21,
+        "name": "VERNON CALIFORNIA CITY",
+      },
+      Object {
+        "count": 16,
+        "name": "RANC",
+      },
+      Object {
+        "count": 14,
+        "name": "VERNON",
+      },
+      Object {
+        "count": 12,
+        "name": "CITY OF INDUSTRY",
+      },
+      Object {
+        "count": 10,
+        "name": "SAN FRANCISCO SAN F RANCISCO",
+      },
+      Object {
+        "count": 8,
+        "name": "COMMERCE",
+      },
+      Object {
+        "count": 6,
+        "name": "MANHATTAN",
+      },
+      Object {
+        "count": 5,
+        "name": "CUPERTINO",
+      },
+      Object {
+        "count": 5,
+        "name": "LOS ANGELES",
+      },
+      Object {
+        "count": 5,
+        "name": "MANHATT AN BEACH",
+      },
+      Object {
+        "count": 5,
+        "name": "MANHATTAN BEACH",
+      },
+      Object {
+        "count": 5,
+        "name": "RANCHO CACAMON",
+      },
+      Object {
+        "count": 4,
+        "name": "HAYWARD",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE VALLEY",
+      },
+      Object {
+        "count": 1,
+        "name": "CITY OF INDUATRY",
+      },
+      Object {
+        "count": 1,
+        "name": "COMMERCE CALIFO",
+      },
+      Object {
+        "count": 1,
+        "name": "COMMERCE CALIFORN",
+      },
+      Object {
+        "count": 1,
+        "name": "CULVER CITY",
+      },
+      Object {
+        "count": 1,
+        "name": "FONTANA",
+      },
+      Object {
+        "count": 1,
+        "name": "FREMONT",
+      },
+      Object {
+        "count": 1,
+        "name": "IRVINE",
+      },
+      Object {
+        "count": 1,
+        "name": "MANHATTAN BEACH LOS ANGELES",
+      },
+      Object {
+        "count": 1,
+        "name": "MILPITAS",
+      },
+      Object {
+        "count": 1,
+        "name": "MONTEBELLO",
+      },
+      Object {
+        "count": 1,
+        "name": "MORENO VALLEY",
+      },
+      Object {
+        "count": 1,
+        "name": "NEWPORT BEACH",
+      },
+      Object {
+        "count": 1,
+        "name": "OAKLAND",
+      },
+      Object {
+        "count": 1,
+        "name": "ONTARIO",
+      },
+      Object {
+        "count": 1,
+        "name": "R HO DOMINGUEZ",
+      },
+      Object {
+        "count": 1,
+        "name": "RAN CHO",
+      },
+      Object {
+        "count": 1,
+        "name": "RAN RANCHO CUCAMONGA",
+      },
+      Object {
+        "count": 1,
+        "name": "RANC ROCHESTER",
+      },
+      Object {
+        "count": 1,
+        "name": "REDWOOD CITY",
+      },
+      Object {
+        "count": 1,
+        "name": "SACRAMENTO",
+      },
+      Object {
+        "count": 1,
+        "name": "SAN DIEGO",
+      },
+      Object {
+        "count": 1,
+        "name": "SAN FRANCISC",
+      },
+      Object {
+        "count": 1,
+        "name": "SAN FRANCISCO SAN FRANCISCO",
+      },
+      Object {
+        "count": 1,
+        "name": "SAN JOSE",
+      },
+      Object {
+        "count": 1,
+        "name": "SAN RAMON",
+      },
+      Object {
+        "count": 1,
+        "name": "STREECAT SAN FRANCISCO",
+      },
+      Object {
+        "count": 1,
+        "name": "SUNVALLEY CALIFORNIA",
+      },
+      Object {
+        "count": 1,
+        "name": "SUN VALLEY CALIFORNIA USA POST",
+      },
+      Object {
+        "count": 1,
+        "name": "TORRANCE",
+      },
+    ],
+    "totalRefinements": 48,
+  },
+  Object {
+    "category": "Location",
+    "field": "ConsigneeState",
+    "refinements": Array [
+      Object {
+        "count": 4446,
+        "name": "CA",
+      },
+    ],
+    "totalRefinements": 1,
+  },
+  Object {
+    "category": "",
+    "field": "ConsigneeStreet",
+    "refinements": Array [
+      Object {
+        "count": 3942,
+        "name": "FOLSOM",
+      },
+      Object {
+        "count": 236,
+        "name": "ROCHESTER",
+      },
+      Object {
+        "count": 95,
+        "name": "BASE LINE",
+      },
+      Object {
+        "count": 35,
+        "name": "52ND",
+      },
+      Object {
+        "count": 17,
+        "name": "SEPULVEDA",
+      },
+      Object {
+        "count": 13,
+        "name": "COMMERCE",
+      },
+      Object {
+        "count": 13,
+        "name": "GALE",
+      },
+      Object {
+        "count": 7,
+        "name": "24TH",
+      },
+      Object {
+        "count": 4,
+        "name": "INFINITE",
+      },
+      Object {
+        "count": 4,
+        "name": "WIEGMAN",
+      },
+      Object {
+        "count": 3,
+        "name": "CLEMENT",
+      },
+      Object {
+        "count": 2,
+        "name": "GLENOAKS",
+      },
+      Object {
+        "count": 2,
+        "name": "HARRISON 2 FOLSOM",
+      },
+      Object {
+        "count": 1,
+        "name": "AEROS",
+      },
+      Object {
+        "count": 1,
+        "name": "BLACK MOUNTAIN QUARRY",
+      },
+      Object {
+        "count": 1,
+        "name": "BUSINESS",
+      },
+      Object {
+        "count": 1,
+        "name": "CARROLL",
+      },
+      Object {
+        "count": 1,
+        "name": "CASA GRANDE",
+      },
+      Object {
+        "count": 1,
+        "name": "CHRISTY",
+      },
+      Object {
+        "count": 1,
+        "name": "CHURCH",
+      },
+      Object {
+        "count": 1,
+        "name": "DOHENY",
+      },
+      Object {
+        "count": 1,
+        "name": "FOLSOM STREETFARMS",
+      },
+      Object {
+        "count": 1,
+        "name": "LINCOLN",
+      },
+      Object {
+        "count": 1,
+        "name": "NANDINA",
+      },
+      Object {
+        "count": 1,
+        "name": "POPLAR",
+      },
+      Object {
+        "count": 1,
+        "name": "PROFORMA",
+      },
+      Object {
+        "count": 1,
+        "name": "SAN FEDRO",
+      },
+      Object {
+        "count": 1,
+        "name": "SEAPORT",
+      },
+      Object {
+        "count": 1,
+        "name": "STELLER",
+      },
+      Object {
+        "count": 1,
+        "name": "TAYLOR",
+      },
+      Object {
+        "count": 1,
+        "name": "UNIVERSITY",
+      },
+      Object {
+        "count": 1,
+        "name": "VON KARMAN",
+      },
+      Object {
+        "count": 1,
+        "name": "WESTERN",
+      },
+      Object {
+        "count": 1,
+        "name": "WOLFE",
+      },
+      Object {
+        "count": 1,
+        "name": "YARD",
+      },
+      Object {
+        "count": 1,
+        "name": "YOSEMITE",
+      },
+      Object {
+        "count": 1,
+        "name": "YOUNGER CREEK",
+      },
+    ],
+    "totalRefinements": 37,
+  },
+  Object {
+    "category": "Location",
+    "field": "ConsigneeZipCode",
+    "refinements": Array [
+      Object {
+        "count": 3994,
+        "name": "94105",
+      },
+      Object {
+        "count": 237,
+        "name": "91730",
+      },
+      Object {
+        "count": 95,
+        "name": "92376",
+      },
+      Object {
+        "count": 36,
+        "name": "90058",
+      },
+      Object {
+        "count": 17,
+        "name": "90266",
+      },
+      Object {
+        "count": 13,
+        "name": "90040",
+      },
+      Object {
+        "count": 13,
+        "name": "91748",
+      },
+      Object {
+        "count": 7,
+        "name": "94122",
+      },
+      Object {
+        "count": 5,
+        "name": "95014",
+      },
+      Object {
+        "count": 4,
+        "name": "94544",
+      },
+      Object {
+        "count": 3,
+        "name": "94118",
+      },
+      Object {
+        "count": 2,
+        "name": "91324",
+      },
+      Object {
+        "count": 1,
+        "name": "90069",
+      },
+      Object {
+        "count": 1,
+        "name": "90220",
+      },
+      Object {
+        "count": 1,
+        "name": "90232",
+      },
+      Object {
+        "count": 1,
+        "name": "90501",
+      },
+      Object {
+        "count": 1,
+        "name": "90640",
+      },
+      Object {
+        "count": 1,
+        "name": "91761",
+      },
+      Object {
+        "count": 1,
+        "name": "92121",
+      },
+      Object {
+        "count": 1,
+        "name": "92307",
+      },
+      Object {
+        "count": 1,
+        "name": "92337",
+      },
+      Object {
+        "count": 1,
+        "name": "92551",
+      },
+      Object {
+        "count": 1,
+        "name": "92614",
+      },
+      Object {
+        "count": 1,
+        "name": "92660",
+      },
+      Object {
+        "count": 1,
+        "name": "94063",
+      },
+      Object {
+        "count": 1,
+        "name": "94133",
+      },
+      Object {
+        "count": 1,
+        "name": "94538",
+      },
+      Object {
+        "count": 1,
+        "name": "94583",
+      },
+      Object {
+        "count": 1,
+        "name": "94607",
+      },
+      Object {
+        "count": 1,
+        "name": "95035",
+      },
+      Object {
+        "count": 1,
+        "name": "95133",
+      },
+      Object {
+        "count": 1,
+        "name": "95828",
+      },
+    ],
+    "totalRefinements": 32,
+  },
+  Object {
+    "category": "Transit Details",
+    "field": "CountryOfOrigin",
+    "refinements": Array [
+      Object {
+        "count": 1780,
+        "name": "China",
+      },
+      Object {
+        "count": 1000,
+        "name": "Sri Lanka",
+      },
+      Object {
+        "count": 262,
+        "name": "Hong Kong",
+      },
+      Object {
+        "count": 257,
+        "name": "South Korea",
+      },
+      Object {
+        "count": 225,
+        "name": "Israel",
+      },
+      Object {
+        "count": 200,
+        "name": "India",
+      },
+      Object {
+        "count": 169,
+        "name": "Indonesia",
+      },
+      Object {
+        "count": 167,
+        "name": "Singapore",
+      },
+      Object {
+        "count": 138,
+        "name": "Vietnam",
+      },
+      Object {
+        "count": 135,
+        "name": "Spain",
+      },
+      Object {
+        "count": 72,
+        "name": "China Taiwan",
+      },
+      Object {
+        "count": 13,
+        "name": "Panama",
+      },
+      Object {
+        "count": 8,
+        "name": "Guatemala",
+      },
+      Object {
+        "count": 5,
+        "name": "Malaysia",
+      },
+      Object {
+        "count": 4,
+        "name": "Germany",
+      },
+      Object {
+        "count": 3,
+        "name": "Netherlands",
+      },
+      Object {
+        "count": 1,
+        "name": "Brazil",
+      },
+      Object {
+        "count": 1,
+        "name": "Canada",
+      },
+      Object {
+        "count": 1,
+        "name": "Colombia",
+      },
+      Object {
+        "count": 1,
+        "name": "Italy",
+      },
+      Object {
+        "count": 1,
+        "name": "Japan",
+      },
+      Object {
+        "count": 1,
+        "name": "Portugal",
+      },
+      Object {
+        "count": 1,
+        "name": "Thailand",
+      },
+      Object {
+        "count": 1,
+        "name": "United Kingdom",
+      },
+    ],
+    "totalRefinements": 24,
+  },
+  Object {
+    "category": "Transit Details",
+    "field": "DestinationPort",
+    "refinements": Array [
+      Object {
+        "count": 1926,
+        "name": "Los Angeles, California",
+      },
+      Object {
+        "count": 1618,
+        "name": "New York/Newark Area, Newark, New Jersey",
+      },
+      Object {
+        "count": 623,
+        "name": "Long Beach, California",
+      },
+      Object {
+        "count": 155,
+        "name": "Savannah, Georgia",
+      },
+      Object {
+        "count": 96,
+        "name": "Baltimore, Maryland",
+      },
+      Object {
+        "count": 19,
+        "name": "Oakland, California",
+      },
+      Object {
+        "count": 4,
+        "name": "Miami, Florida",
+      },
+      Object {
+        "count": 4,
+        "name": "Port Everglades, Florida",
+      },
+      Object {
+        "count": 1,
+        "name": "New York, New York",
+      },
+    ],
+    "totalRefinements": 9,
+  },
+  Object {
+    "category": "Transit Details",
+    "field": "ForeignPort",
+    "refinements": Array [
+      Object {
+        "count": 1000,
+        "name": "Colombo",
+      },
+      Object {
+        "count": 871,
+        "name": "Shanghai",
+      },
+      Object {
+        "count": 322,
+        "name": "Yantian",
+      },
+      Object {
+        "count": 262,
+        "name": "Hong Kong",
+      },
+      Object {
+        "count": 256,
+        "name": "Pusan",
+      },
+      Object {
+        "count": 246,
+        "name": "Ching Tao",
+      },
+      Object {
+        "count": 225,
+        "name": "Haifa",
+      },
+      Object {
+        "count": 200,
+        "name": "Nhava Sheva",
+      },
+      Object {
+        "count": 169,
+        "name": "Tanjung Priok",
+      },
+      Object {
+        "count": 167,
+        "name": "Singapore",
+      },
+      Object {
+        "count": 145,
+        "name": "Ningpo",
+      },
+      Object {
+        "count": 138,
+        "name": "Vung Tau",
+      },
+      Object {
+        "count": 135,
+        "name": "Algeciras",
+      },
+      Object {
+        "count": 115,
+        "name": "Xiamen",
+      },
+      Object {
+        "count": 75,
+        "name": "Yangshan",
+      },
+      Object {
+        "count": 72,
+        "name": "Kaohsiung",
+      },
+      Object {
+        "count": 13,
+        "name": "Colon",
+      },
+      Object {
+        "count": 8,
+        "name": "Santo Tomas",
+      },
+      Object {
+        "count": 5,
+        "name": "Port Swettenham",
+      },
+      Object {
+        "count": 3,
+        "name": "Nansha",
+      },
+      Object {
+        "count": 3,
+        "name": "Rotterdam",
+      },
+      Object {
+        "count": 2,
+        "name": "Bremerhaven",
+      },
+      Object {
+        "count": 2,
+        "name": "Hsinkang",
+      },
+      Object {
+        "count": 2,
+        "name": "Stade",
+      },
+      Object {
+        "count": 1,
+        "name": "Cartagena",
+      },
+      Object {
+        "count": 1,
+        "name": "Chiwan",
+      },
+      Object {
+        "count": 1,
+        "name": "Genova",
+      },
+      Object {
+        "count": 1,
+        "name": "Kwangyang",
+      },
+      Object {
+        "count": 1,
+        "name": "Laem Chabang",
+      },
+      Object {
+        "count": 1,
+        "name": "Okinawa Island",
+      },
+      Object {
+        "count": 1,
+        "name": "Prince Rupert, BC",
+      },
+      Object {
+        "count": 1,
+        "name": "Sao Paulo",
+      },
+      Object {
+        "count": 1,
+        "name": "Sines",
+      },
+      Object {
+        "count": 1,
+        "name": "Southhampton",
+      },
+    ],
+    "totalRefinements": 34,
+  },
+  Object {
+    "category": "",
+    "field": "MarksAndNumbers",
+    "refinements": Array [
+      Object {
+        "count": 421,
+        "name": "FDC-0026 3685 NORTH GAP DRIVE FRESNO, CA 93727 USA",
+      },
+      Object {
+        "count": 373,
+        "name": "NDC-0028 100 MERRITT BLVD. FISHKILL, NY 12524 USA",
+      },
+      Object {
+        "count": 228,
+        "name": "N/M",
+      },
+      Object {
+        "count": 209,
+        "name": "TDC-0020 200GAP BLVD. GALLATIN, TN 37066 USA",
+      },
+      Object {
+        "count": 202,
+        "name": "OFC-0010 6001 GREEN POINT DRIVE SOUTH GROVEPORT, OH 43125 USA",
+      },
+      Object {
+        "count": 131,
+        "name": "SALSON LOGISTICS 888 DOREMUS AVE. NEWARK NJ 07114",
+      },
+      Object {
+        "count": 111,
+        "name": "CEO 300 GAP BLVD GALLATIN, TN, USA 37066",
+      },
+      Object {
+        "count": 108,
+        "name": "NDC-0028 100 MERRITT BLVD. FISHKILL, NY 12524 USA 3RD NOTIFY PARTY-",
+      },
+      Object {
+        "count": 70,
+        "name": "SHIP TO ADDRESS ITO NYCSALSON LOGISTICS 888 DOREMUS AVE. NEWARK NJ 07114",
+      },
+      Object {
+        "count": 62,
+        "name": "MADE IN CHINA",
+      },
+      Object {
+        "count": 54,
+        "name": ". TDC-0020 200 GAP BLVD. GALLATIN, TN 37066 USA",
+      },
+      Object {
+        "count": 52,
+        "name": "NO MARK",
+      },
+      Object {
+        "count": 50,
+        "name": "NO MARKS",
+      },
+      Object {
+        "count": 47,
+        "name": "NO MARKS NO MARKS NO MARKS NO MARKS NO MARKS",
+      },
+      Object {
+        "count": 45,
+        "name": ". NDC-0028 100 MERRITT BLVD. FISHKILL, NY 12524 USA",
+      },
+      Object {
+        "count": 45,
+        "name": "AS PER COMMERCIAL INVOICE AS PER COMMERCIAL INVOICE AS PER COMMERCIAL",
+      },
+      Object {
+        "count": 45,
+        "name": "NDC-0028 100 MERRITT BLVD. FISHKIL L, NY 12524 USA",
+      },
+      Object {
+        "count": 44,
+        "name": "TDC 0020 200 GAP BLVD GALLATIN, TN 37066 USA",
+      },
+      Object {
+        "count": 43,
+        "name": ". FDC-0026 3685 NORTH GAP DRIVE FRESNO, CA 93727 USA",
+      },
+      Object {
+        "count": 42,
+        "name": ". OFC-0010 6001 GREEN POINT DRIVE SOUTH GROVEPORT, OH 43125 USA",
+      },
+      Object {
+        "count": 41,
+        "name": "FDC-0026 3685 NORTH GAP DRIVE FRES NO, CA 93727 USA",
+      },
+      Object {
+        "count": 40,
+        "name": "TDC-0020 200 GAP BLVD. GALLATIN, T N 37066 USA",
+      },
+      Object {
+        "count": 36,
+        "name": "NO MARKS NO MARKS NO MARKS",
+      },
+      Object {
+        "count": 35,
+        "name": "NO MARKS NO MARKS",
+      },
+      Object {
+        "count": 32,
+        "name": "OFC-0010 6001 GREEN POINT DRIVE SO UTH GROVEPORT, OH 43125 USA",
+      },
+      Object {
+        "count": 30,
+        "name": "FDC-0026 3685 NORTH GAP DRIVE FRESNO CA 93727 US",
+      },
+      Object {
+        "count": 30,
+        "name": "SALSON LOGISTICS 888 DOREMUS AVE. NEWARK NJ 07114.",
+      },
+      Object {
+        "count": 28,
+        "name": "OFC - 0010 6001 GREEN POINT DR SOUTH GROVEPORT, OH 43125 3RD NOTIFY PARTY-",
+      },
+      Object {
+        "count": 25,
+        "name": "OFC-0010 6001 GREEN POINT DR SOUTH GROVEPORT, OH 43125 3RD NOTIFY PARTY-",
+      },
+      Object {
+        "count": 24,
+        "name": "FDC-0026 3685 NORTH GAP DRIVE FRESNO, CA 93727 USA FDC-0026 3685 NORTH GAP",
+      },
+      Object {
+        "count": 24,
+        "name": "NDC-0028 100 MERRITT BLVD. FISHKILL, NY 12524 USA NDC-0028 100 MERRITT",
+      },
+      Object {
+        "count": 24,
+        "name": "UNIT-PREPACK CARTON OF",
+      },
+      Object {
+        "count": 22,
+        "name": "NM",
+      },
+      Object {
+        "count": 22,
+        "name": "NO MARKS NO MARKS NO MARKS NO MARKS",
+      },
+      Object {
+        "count": 21,
+        "name": "93727 USA FDC-0026 3685 NORTH GAP DRIVE FRESNO, CA 93727 USA",
+      },
+      Object {
+        "count": 21,
+        "name": "BLVD. FISHKILL, NY 12524 USA NDC-0028 100 MERRITT BLVD. FISHKILL, NY",
+      },
+      Object {
+        "count": 20,
+        "name": "AS PER COMMERCIAL INVOICE AS PER COMMERCIAL INVOICE",
+      },
+      Object {
+        "count": 20,
+        "name": "DRIVE FRESNO, CA 93727 USA FDC-0026 3685 NORTH GAP DRIVE FRESNO, CA",
+      },
+      Object {
+        "count": 19,
+        "name": "BLVD. FISHKILL, NY 12524 USA",
+      },
+      Object {
+        "count": 19,
+        "name": "NM NM NM NM NM NM",
+      },
+      Object {
+        "count": 19,
+        "name": "NO MARKS NO MARKS NO MARKS NO MARKS NO MARKS NO MARKS",
+      },
+      Object {
+        "count": 18,
+        "name": "AS ADDRESSED",
+      },
+      Object {
+        "count": 17,
+        "name": "AS PER COMMERCIAL INVOICE",
+      },
+      Object {
+        "count": 17,
+        "name": "TDC-0020 200 GAP BLVD. GALLATIN TN 37066 US",
+      },
+      Object {
+        "count": 16,
+        "name": "12524 USA NDC-0028 100 MERRITT BLVD. FISHKILL, NY 12524 USA",
+      },
+      Object {
+        "count": 16,
+        "name": "DRIVE FRESNO, CA 93727 USA",
+      },
+      Object {
+        "count": 16,
+        "name": "OFC 0010 6001 GREEN POINT DRIVE SOUTH GROVEPOT, OH 43125 USA",
+      },
+      Object {
+        "count": 15,
+        "name": "CENTRAL OMNI CEO -000000021- 300 GAP BOULEVARD GALLATIN TN 37066 US",
+      },
+      Object {
+        "count": 15,
+        "name": "INVOICE AS PER COMMERCIAL INVOICE AS PER COMMERCIAL INVOICE",
+      },
+      Object {
+        "count": 15,
+        "name": "MADE IN KOREA",
+      },
+      Object {
+        "count": 14,
+        "name": "== DITTO ==",
+      },
+      Object {
+        "count": 13,
+        "name": "NDC-0028 100 MERRITT BOULEVARD FISHKILL, NY 12524 USA PO# SKU-ITEM",
+      },
+      Object {
+        "count": 12,
+        "name": "066 USA",
+      },
+      Object {
+        "count": 12,
+        "name": "OFC-0010 6001 GREEN POINT DRIVE SOUTH GROVEPORT, OH 43125 USA OFC-0010 6001 GREEN",
+      },
+      Object {
+        "count": 12,
+        "name": "TDC-0020 200 GAP BLVD. GALLATIN, T N, USA 37066",
+      },
+      Object {
+        "count": 12,
+        "name": "UNIT-PREPACK CARTON OF NDC-0028 100 MERRITT BOULEVARD FISHKILL, NY 12524 USA",
+      },
+      Object {
+        "count": 11,
+        "name": "NDC-0028 100 MERRITT BOULEVARD FISHKILL NY 12524 US",
+      },
+      Object {
+        "count": 11,
+        "name": "PO# SKU-ITEM UNIT-PREPACK CARTON OF NDC-0028 100 MERRITT BOULEVARD FISHKILL, NY",
+      },
+      Object {
+        "count": 11,
+        "name": "SHIP TO ADDREES ITO NYCSALSON LOGISTICS 888 DOREMUS AVE. NEWARK NJ 07114",
+      },
+      Object {
+        "count": 11,
+        "name": "TDC - 0020200 GAP BOULEVARD GALLATIN, TN 37066. USA PO# SKU-ITEM",
+      },
+      Object {
+        "count": 11,
+        "name": "TDC 0020 200 GAP BLVD GALLATIN, TN 37066 USATDC 0020 200 GAP BLVDGALLATIN, TN 37066 USATDC 0020 200 GAP BLVD GALLATIN, TN 37066 USATDC 0020 200 GAP BLVD GALLATIN, TN 37066 USATDC 0020 200 GAP BLVD GALLATIN, TN 37066 USATDC 0020 200 GAP BLVD GALLATIN, TN 37066 USATDC 0020 200 GAP BLVD GALLATIN, TN 37066 USATDC 0020 200 GAP BLVD GALLATIN, TN 37066 USA",
+      },
+      Object {
+        "count": 10,
+        "name": "12524 USA PO# SKU-ITEM UNIT-PREPACK CARTON OF NDC-0028 100 MERRITT",
+      },
+      Object {
+        "count": 10,
+        "name": "BOULEVARD FISHKILL, NY 12524 USA PO# SKU-ITEM UNIT-PREPACK CARTON OF",
+      },
+      Object {
+        "count": 10,
+        "name": "CA 93727 US",
+      },
+      Object {
+        "count": 10,
+        "name": "FDC-0026 3685,NORTH GAP DRIVE FRESNO,CA,9372 7 UNITED STATES FDC-0026 3685,NORTH GAP",
+      },
+      Object {
+        "count": 10,
+        "name": "N/M N/M",
+      },
+      Object {
+        "count": 9,
+        "name": ", 93727UNITED STATES FDC-0026--BANA NA REP UBLIC, LLC3685 NORTH GAP DRIVEFRESNO,",
+      },
+      Object {
+        "count": 9,
+        "name": "12524UNITED STA TES NDC-0028--BANA NA REP UBLIC, LLC100 MERRIT T",
+      },
+      Object {
+        "count": 9,
+        "name": "37066. USA PO# SKU-ITEM UNIT-PREPACK CARTON OF TDC - 0020 200 GAP",
+      },
+      Object {
+        "count": 9,
+        "name": "7 UNITED STATES FDC-0026 3685,NORTH GAP DRIVE FRESNO,CA,9372 7 UNITED STATES",
+      },
+      Object {
+        "count": 9,
+        "name": "BOULEVARD GALLATIN, TN 37066. USA PO# SKU-ITEM UNIT-PREPACK CARTON OF",
+      },
+      Object {
+        "count": 9,
+        "name": "CARTON__OF__ PO# STYLE __SIZE__ QTY- GROSS WEIGHT- NET WEIGHT- CARTON DIMENSIONS-",
+      },
+      Object {
+        "count": 9,
+        "name": "CEO-0021 300 GAP BLVD GALLATIN, TN , USA 37066",
+      },
+      Object {
+        "count": 9,
+        "name": "INVOICE",
+      },
+      Object {
+        "count": 9,
+        "name": "MADE IN CHINA MADE IN CHINA",
+      },
+      Object {
+        "count": 9,
+        "name": "NDC-0028 100 MERRITT BOULEVARD FISHKILL, NY 12 524 US",
+      },
+      Object {
+        "count": 9,
+        "name": "TDC - 0020--BANANA R EPUBLIC, LLC200 GAP BLVD.GALLATIN, TN, 3 7066UNITED",
+      },
+      Object {
+        "count": 9,
+        "name": "TDC-0020 200GAP BLVD GALLATIN,TN,37 066 UNITED STATES TDC-0020 200 GAP BLVD GALLATIN,TN,37",
+      },
+      Object {
+        "count": 9,
+        "name": "TDC-0020 200 GAP BOULEVARD GALLATIN, TN, USA 37066",
+      },
+      Object {
+        "count": 9,
+        "name": "UNIT-PREPACK CARTON OF TDC - 0020 200 GAP BOULEVARD GALLATIN, TN 37066. USA",
+      },
+      Object {
+        "count": 8,
+        "name": "-SIDE MARK- NO SIDE MARK",
+      },
+      Object {
+        "count": 8,
+        "name": "066 UNITED STATES TDC-0020 200 GAP BLVD GALLATIN,TN,37 066 UNITED STATES TDC-0020",
+      },
+      Object {
+        "count": 8,
+        "name": "37066 USA",
+      },
+      Object {
+        "count": 8,
+        "name": "CEO 300 GAP BOULEVARD GALLATIN, TN 37066 USA",
+      },
+      Object {
+        "count": 8,
+        "name": "DRIVE FRESNO,CA,9372 7 UNITED STATES FDC-0026 3685,NORTH GAP DRIVE FRESNO,CA,9372",
+      },
+      Object {
+        "count": 8,
+        "name": "INVOICE AS PER COMMERCIAL INVOICE",
+      },
+      Object {
+        "count": 8,
+        "name": "NM NM NM NM NM",
+      },
+      Object {
+        "count": 8,
+        "name": "PART OF CENTRAL OMNI CE O 300 GAP BOULEVA RD GALLATIN TN 370 66 USA",
+      },
+      Object {
+        "count": 8,
+        "name": "POINT DRIVE SOUTH GROVEPORT, OH 43125 USA OFC-0010 6001 GREEN POINT DRIVE SOUTH",
+      },
+      Object {
+        "count": 8,
+        "name": "TDC-0020 200 GAP BOULEVARD GALLATI N,TN 37066 US MADE IN CAMBODIA",
+      },
+      Object {
+        "count": 8,
+        "name": "US PO # SKU-ITEM UNIT-PREPACK CARTON OF == DITTO == == DITTO == == DITTO ==",
+      },
+      Object {
+        "count": 7,
+        "name": "000000026 3685 NORTH GAP DRIVE FRESNO CA 93727 US PO# PREPACK#",
+      },
+      Object {
+        "count": 7,
+        "name": "12524 USA",
+      },
+      Object {
+        "count": 7,
+        "name": "BLVD FISHKILL,NY,12 524 UNITED STATES NDC-0028 100 METTITT BLVD FISHKILL,NY,12",
+      },
+      Object {
+        "count": 7,
+        "name": "BOULEVARDFISH KILL, NY, 12524UNITED STA TES NDC-0028--BANA NA REP",
+      },
+      Object {
+        "count": 7,
+        "name": "CENTRAL OMNI CEO 300GAP BOULEVARD GALLATIN TN 370066 US",
+      },
+      Object {
+        "count": 7,
+        "name": "FCL/FCL FREIGHT COLLECT NON-NEGOTIABLE WAYBILL RELEASE PROCEDURE TDC-0020 200 GAP BLVD. GALLATIN, TN 37",
+      },
+      Object {
+        "count": 7,
+        "name": "FDC-0026 3685 N. GAP DRIVE FRESNO, CA, USA 93727",
+      },
+      Object {
+        "count": 7,
+        "name": "FDC-0026--BANA NA REP UBLIC, LLC3685 NORTH GAP DRIVEFRESNO, CA , 93727UNITED",
+      },
+      Object {
+        "count": 7,
+        "name": "FISHKILL NY 125 24 US",
+      },
+    ],
+    "totalRefinements": 100,
+  },
+  Object {
+    "category": "",
+    "field": "NotifyParty",
+    "refinements": Array [
+      Object {
+        "count": 385,
+        "name": "EXPEDITORS INT'L - LOS ANGELES",
+      },
+      Object {
+        "count": 281,
+        "name": "EXPEDITORS INT L - CHICAGO",
+      },
+      Object {
+        "count": 262,
+        "name": "SALSON LOGISTICS",
+      },
+      Object {
+        "count": 234,
+        "name": "APPLE TREE INTERNATIONAL",
+      },
+      Object {
+        "count": 186,
+        "name": "EXPEDITORS INT L - SAVANNAH",
+      },
+      Object {
+        "count": 157,
+        "name": "EXPEDITORS INT'L - CHICAGO",
+      },
+      Object {
+        "count": 140,
+        "name": "EXPEDITORS INTERNATIONAL OF WASHING",
+      },
+      Object {
+        "count": 112,
+        "name": "EXPEDITORS INT L - LOS ANGELES",
+      },
+      Object {
+        "count": 95,
+        "name": "EXPEDITORS INT'L - CHARLESTON",
+      },
+      Object {
+        "count": 73,
+        "name": "EXPEDITORS INTL OFWA INC",
+      },
+      Object {
+        "count": 62,
+        "name": "EI-INWOOD",
+      },
+      Object {
+        "count": 47,
+        "name": "EXPEDITORS INT'L - SAVANNAH",
+      },
+      Object {
+        "count": 33,
+        "name": "GRAND OCEAN CUSTOMS BROKERAGE INCOR",
+      },
+      Object {
+        "count": 25,
+        "name": "APLL",
+      },
+      Object {
+        "count": 13,
+        "name": "GREEN APPLE LIFESTYLE, INC",
+      },
+      Object {
+        "count": 8,
+        "name": "APPLE EVENT SUPPLIES INC.",
+      },
+      Object {
+        "count": 7,
+        "name": "EXPEDITORS INT_L - SAVANNAH",
+      },
+      Object {
+        "count": 4,
+        "name": "APPLE EVENT SUPPLIER INC.",
+      },
+      Object {
+        "count": 3,
+        "name": "APPLE COMPUTER, INC. C/O OHL",
+      },
+      Object {
+        "count": 2,
+        "name": "APPLE EVENT SUPPLIES INC",
+      },
+      Object {
+        "count": 2,
+        "name": "BANANA REPUBLIC, LLC",
+      },
+      Object {
+        "count": 2,
+        "name": "EXPEDITORS INTL OF WASH INC",
+      },
+      Object {
+        "count": 2,
+        "name": "GOLDEN BANANA INC",
+      },
+      Object {
+        "count": 2,
+        "name": "GOLDEN BANANA, INC",
+      },
+      Object {
+        "count": 2,
+        "name": "GOLDEN BANANA,INC",
+      },
+      Object {
+        "count": 2,
+        "name": "GRAND OCEAN CUSTOM SERVICE",
+      },
+      Object {
+        "count": 2,
+        "name": "GREEN APPLE LIFESTYLE INC",
+      },
+      Object {
+        "count": 2,
+        "name": "GREEN APPLE LIFESTYLE,INC.",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE EVENT SUPPLIES,INC.",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE GREEN BISTNO",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE GREEN INC",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE TREE HOUSE INC.",
+      },
+      Object {
+        "count": 1,
+        "name": "APPLE TREE INTERNATIONA",
+      },
+      Object {
+        "count": 1,
+        "name": "AUNTY APPLE AND PRODUCTIONS",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA JOE INC.",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA PRODUCTS LLC",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA REPUBLIC, LLC.",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA REPUBLIC,LLC",
+      },
+      Object {
+        "count": 1,
+        "name": "BANANA REPUBLIC.LLC",
+      },
+      Object {
+        "count": 1,
+        "name": "BLF BIG APPLE LLC",
+      },
+      Object {
+        "count": 1,
+        "name": "CEMEX APPLE VALLEY",
+      },
+      Object {
+        "count": 1,
+        "name": "D.B. GROUP AMERIC, LTD.",
+      },
+      Object {
+        "count": 1,
+        "name": "EXPEDITORS INTERNATIONAL",
+      },
+      Object {
+        "count": 1,
+        "name": "FULL SERVICE RELOCATION,INC.",
+      },
+      Object {
+        "count": 1,
+        "name": "JOHNNY APPLE",
+      },
+      Object {
+        "count": 1,
+        "name": "SHOTPUT/BANANA PRODUCTS LLC",
+      },
+      Object {
+        "count": 1,
+        "name": "STONEAPPLE FIREPLACE",
+      },
+      Object {
+        "count": 1,
+        "name": "SWANK BANANA MARKETING, LLC.",
+      },
+      Object {
+        "count": 1,
+        "name": "THE APPLE PROJECT IS IN SAN FRANCI",
+      },
+      Object {
+        "count": 1,
+        "name": "USA ATT:KRISTOPHER KRIETER-",
+      },
+    ],
+    "totalRefinements": 50,
+  },
+  Object {
+    "category": "",
+    "field": "NotifyPartyAddress",
+    "refinements": Array [
+      Object {
+        "count": 496,
+        "name": "5757 WEST CENTURY BLVD, LOS ANGELES, CA 90045, USA",
+      },
+      Object {
+        "count": 281,
+        "name": "849 THOMAS DR, BENSENVILLE, IL 60106, USA",
+      },
+      Object {
+        "count": 277,
+        "name": "245 ROGER AVE, INWOOD, NY 11096, USA",
+      },
+      Object {
+        "count": 262,
+        "name": "888 DOREMUSAVE, NEWARK, NJ 7114, USA",
+      },
+      Object {
+        "count": 212,
+        "name": "2 EAST BRYAN STREET, SAVANNAH, GA 31401, USA",
+      },
+      Object {
+        "count": 95,
+        "name": "2265 CLEMENTS FERRY RD, CHARLESTON, SC 29492, USA",
+      },
+      Object {
+        "count": 94,
+        "name": "8675 ROCHESTER AVE, RANCHO, CA 91730, USA",
+      },
+      Object {
+        "count": 74,
+        "name": "THOMAS DR, BENSENVILLE, IL60106, USA",
+      },
+      Object {
+        "count": 66,
+        "name": "8675 ROCHESTER AVE, RANCHO CUCAMONGA, CA 91730, USA",
+      },
+      Object {
+        "count": 33,
+        "name": "801 SOUTH GARFIELD AVE, ALHAMBRA, CA 91801, USA",
+      },
+      Object {
+        "count": 25,
+        "name": "3015 EAST ANA ST, COMPTON, CA 90221, USA",
+      },
+      Object {
+        "count": 20,
+        "name": "2 EAST BRYAN ST, SAVANNAH, GA 31401, USA",
+      },
+      Object {
+        "count": 16,
+        "name": "8675 ROCHESTER AVE, RANC, CA 91730, USA",
+      },
+      Object {
+        "count": 6,
+        "name": "1746 24TH AVE, SAN FRANCISCO, CA 94122, USA",
+      },
+      Object {
+        "count": 5,
+        "name": "1601 NORTH SEPULVEDA BLVD, MANHATT AN BEACH, CA 90266, USA",
+      },
+      Object {
+        "count": 5,
+        "name": "1601 NORTH SEPULVEDA BLVD, MANHATTAN, CA 90266, USA",
+      },
+      Object {
+        "count": 5,
+        "name": "18539 EAST GALE AVE, CITY OF INDUSTRY, CA 91748, USA",
+      },
+      Object {
+        "count": 5,
+        "name": "18539 GALE AVE, CITY OF INDUSTRY, CA 91748, USA",
+      },
+      Object {
+        "count": 5,
+        "name": "2 FOLSOM STREET, SAN FRANCISCO, CA 94105, USA",
+      },
+      Object {
+        "count": 5,
+        "name": "8675 ROCHESTER AVE, RANCHO CACAMON, CA 91730, USA",
+      },
+      Object {
+        "count": 4,
+        "name": "1601 NORTH SEPULVEDA BLVD, MANHATTAN BEACH, CA 90266, USA",
+      },
+      Object {
+        "count": 3,
+        "name": "1710 WEST BASE LINE RD, RIALTO, CA 92376, USA",
+      },
+      Object {
+        "count": 2,
+        "name": "2655 COMMERCE WAY, COMMERCE, CA 90040, USA",
+      },
+      Object {
+        "count": 2,
+        "name": "801 SOUTH GARFIELD AVE, LHAMBRA, CA 91801, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "10700 BUSINESS DR, FONTANA, CA 92337, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "10885 NORTH WOLFE RD, CUPERTINO, CA 95014, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "10950 CHURCH STREET, RAN RANCHO CUCAMONGA, CA 91730, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "1230 YARD CT, SAN JOSE, CA 95133, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "1401 LINCOLN LANE, NEWPORT BEACH, CA 92660, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "1458 SOUTH SAN FEDRO ST, LOS ANGELES, CA 90058, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "150 16 132ND AVE, JAMAICA, NY 11434, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "1690 NORTH DOHENY DR, LOS ANGELES, CA 90069, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "17165 VON KARMAN AVE, IRVINE, CA 92614, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "18924 SOUTH LAUREL PK RD, RNACHO DOMINGUEZ, CA 90221, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "2 EAST BRYAN STREET, SAVAN NAH GA, GA 31401, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "22239 POPLAR ST, OAKLAND, CA 94607, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "25220 BLACK MOUNTAIN QUARRY RD, APPLE VALLEY, CA 92307, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "2655 COMMERCE WAY, COMMERCE CALIFO, CA 90040, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "2655 COMMERCE WAY, COMMERCE CALIFORN, CA 90040, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "2655 COMMERCE WAY, LOS ANGELES, CA 90040, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "599 SEAPORT BLVD, REDWOOD CITY, CA 94063, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "601 NORTH SEPULVEDA BLVD, MANHATTAN BEACH, CA 90266, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "675 ROCHESTER AVE, RANCHO, CA 91730, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "71 MCMURRAY RD, PITTSBURGH, PA 15241, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "8675 ROCHESTER AVE, RAN CHO, CA 91730, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "8675 ROCHESTER AVE, RANC ROCHESTER, CA 91730, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "9030 CARROLL WAY, SAN DIEGO, CA 92121, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "CLEMENT ST, SAN FRANCISCO, CA 94118, USA",
+      },
+      Object {
+        "count": 1,
+        "name": "THOMAS DR, BENSENVILLE BENSENVILL E, IL 60106, USA",
+      },
+    ],
+    "totalRefinements": 49,
+  },
+  Object {
+    "category": "",
+    "field": "Shipper",
+    "refinements": Array [
+      Object {
+        "count": 184,
+        "name": "HONG KONG SEGAWE LTD",
+      },
+      Object {
+        "count": 121,
+        "name": "EAM MALIBAN TEXTILE (PVT) LTD",
+      },
+      Object {
+        "count": 110,
+        "name": "TUSKER APPAREL LTD CO",
+      },
+      Object {
+        "count": 96,
+        "name": "PT.NOTOS",
+      },
+      Object {
+        "count": 95,
+        "name": "ABSOLUTE INTERNATIONAL CO LTD",
+      },
+      Object {
+        "count": 89,
+        "name": "TUSKER APPAREL LTD CO.",
+      },
+      Object {
+        "count": 69,
+        "name": "PT. GISTEX GARMEN INDONESIA",
+      },
+      Object {
+        "count": 58,
+        "name": "EAM MALIBAN TEXTILE PVT LTD",
+      },
+      Object {
+        "count": 49,
+        "name": "EAM MALIBAN TEXTILES (PVT) LTD",
+      },
+      Object {
+        "count": 49,
+        "name": "LITA LIMITED",
+      },
+      Object {
+        "count": 47,
+        "name": "PT. DAEHAN GLOBAL",
+      },
+      Object {
+        "count": 46,
+        "name": "FTN GARMENTS CORPORATION",
+      },
+      Object {
+        "count": 43,
+        "name": "POLYTEX GARMENTS LTD",
+      },
+      Object {
+        "count": 43,
+        "name": "VEGA TEXTILE LTD",
+      },
+      Object {
+        "count": 42,
+        "name": "COVO KNITTERS LTD",
+      },
+      Object {
+        "count": 40,
+        "name": "HON HAI PRECISION INDUSTRY CO LT",
+      },
+      Object {
+        "count": 40,
+        "name": "PRIMAX ELECTRONICS LTD",
+      },
+      Object {
+        "count": 39,
+        "name": "HUNG LONG GARMENT AND SERVICE",
+      },
+      Object {
+        "count": 38,
+        "name": "VINA KOREA CO., LTD",
+      },
+      Object {
+        "count": 34,
+        "name": "EAM MALIBAN TEXTILES JORDAN PVT LTD",
+      },
+      Object {
+        "count": 33,
+        "name": "PT GUNUNG ABADI",
+      },
+      Object {
+        "count": 33,
+        "name": "VEGA TEXTILE LTD.",
+      },
+      Object {
+        "count": 33,
+        "name": "YIWU REDFOREST TRADING CO.,LIMITED",
+      },
+      Object {
+        "count": 32,
+        "name": "PT. VIANA UNGGUL GARMINDO",
+      },
+      Object {
+        "count": 31,
+        "name": "NOBLAND VIETNAM CO., LTD.",
+      },
+      Object {
+        "count": 28,
+        "name": "ESQUEL ENTERPRISES LIMITED.",
+      },
+      Object {
+        "count": 28,
+        "name": "TRADE FACILITATOR FULFILLMENT",
+      },
+      Object {
+        "count": 23,
+        "name": "CRYSTAL APPARELLTD",
+      },
+      Object {
+        "count": 23,
+        "name": "ON TIME MFG., INC.",
+      },
+      Object {
+        "count": 21,
+        "name": "PT. PINNACLE APPARELS",
+      },
+      Object {
+        "count": 19,
+        "name": "LHK CREATION INC.",
+      },
+      Object {
+        "count": 18,
+        "name": "TRADE FACILITATOR FULFILLMENT (TIAN",
+      },
+      Object {
+        "count": 17,
+        "name": "PT MELADY GARMENT INTERNATIONAL",
+      },
+      Object {
+        "count": 17,
+        "name": "WOOIN VINACO., LTD",
+      },
+      Object {
+        "count": 16,
+        "name": "ESQUEL ENTERPRISES LIMITED",
+      },
+      Object {
+        "count": 16,
+        "name": "TRENER INDUSTRIES LTD",
+      },
+      Object {
+        "count": 16,
+        "name": "UNIQUE FASHION HK LTD",
+      },
+      Object {
+        "count": 15,
+        "name": "FORMOSTAR GARMENT(VIETNAM)",
+      },
+      Object {
+        "count": 12,
+        "name": "SSV EXPORT GARMENT COMPANY",
+      },
+      Object {
+        "count": 11,
+        "name": "ESQUEL GARMENT MANUFACTURING VIETNA",
+      },
+      Object {
+        "count": 11,
+        "name": "PT. CIPTA DWI BUSANA",
+      },
+      Object {
+        "count": 11,
+        "name": "UBI VINA 2 CO., LTD",
+      },
+      Object {
+        "count": 10,
+        "name": "FTN VIET NAM CO., LTD",
+      },
+      Object {
+        "count": 10,
+        "name": "TEXMA VINA CO., LTD",
+      },
+      Object {
+        "count": 10,
+        "name": "UPS SCS (ASIA) LTD AS AGENT FOR",
+      },
+      Object {
+        "count": 9,
+        "name": "PT. GUNUNG ABADI",
+      },
+      Object {
+        "count": 8,
+        "name": "DONGGUAN TYMPHANY ACOUSTIC TECHNOLO",
+      },
+      Object {
+        "count": 8,
+        "name": "HAPHONG EXPORT GARMENT JOINT",
+      },
+      Object {
+        "count": 8,
+        "name": "PT. NOTOS",
+      },
+      Object {
+        "count": 7,
+        "name": "CHUTEX INTERNATIONAL(LONG AN)",
+      },
+      Object {
+        "count": 7,
+        "name": "JINHUAMEI LEATHERWARE MFG.CO.LTD",
+      },
+      Object {
+        "count": 7,
+        "name": "MICHIGAN HAIDUONG CO.,LTD",
+      },
+      Object {
+        "count": 7,
+        "name": "NINGBO XINHAO DESEN INTERNATIONAL",
+      },
+      Object {
+        "count": 7,
+        "name": "NY SAN FELIX LTD. CORP.",
+      },
+      Object {
+        "count": 6,
+        "name": "CHUTEX INTERNATIONAL CO.,LTD",
+      },
+      Object {
+        "count": 6,
+        "name": "NINGBO ZHONGRUI IMPORT AND EXPORT",
+      },
+      Object {
+        "count": 6,
+        "name": "PT. HARINDO",
+      },
+      Object {
+        "count": 6,
+        "name": "PT. PRIMA SEJATI SEJAHTERA",
+      },
+      Object {
+        "count": 6,
+        "name": "QINGDAO HUARUI FURNITURE CO., LTD.",
+      },
+      Object {
+        "count": 6,
+        "name": "VINA CKGF TRADING CO., LTD",
+      },
+      Object {
+        "count": 5,
+        "name": "FORMOSTAR GARMENT VIETNAM",
+      },
+      Object {
+        "count": 5,
+        "name": "GEORGE HENSLER COMPANY.",
+      },
+      Object {
+        "count": 5,
+        "name": "HUNG LONG GARMENT AND SERVICE STOCK",
+      },
+      Object {
+        "count": 5,
+        "name": "JOINTGAIN INDUSTRIAL LIMITED",
+      },
+      Object {
+        "count": 5,
+        "name": "RIVER GLORY LTD.",
+      },
+      Object {
+        "count": 5,
+        "name": "SESHIN VIETNAM CO., LTD",
+      },
+      Object {
+        "count": 5,
+        "name": "TIN TIN EXPRESS CO. LTD. O B FU SON",
+      },
+      Object {
+        "count": 4,
+        "name": "GUANG ZHOU WELL HOPE LEATHER",
+      },
+      Object {
+        "count": 4,
+        "name": "QINGDAO HUARUI FURNITURE CO.,LTD.",
+      },
+      Object {
+        "count": 4,
+        "name": "QUANTA COMPUTER INC",
+      },
+      Object {
+        "count": 4,
+        "name": "SUN GARMENT TEXTILE VIETNAM CO., LT",
+      },
+      Object {
+        "count": 4,
+        "name": "VINA KYUNG SEUNG TRADING CO.,LTD",
+      },
+      Object {
+        "count": 3,
+        "name": "BRANDIX APPAREL LTD",
+      },
+      Object {
+        "count": 3,
+        "name": "DONGGUAN HONGDING LEATHER CO.,LTD",
+      },
+      Object {
+        "count": 3,
+        "name": "HOA THO TEXTILE - GARMENT",
+      },
+      Object {
+        "count": 3,
+        "name": "PT.PAN PACIFIC JAKARTA CAB SEMARANG",
+      },
+      Object {
+        "count": 3,
+        "name": "QINGDAO WELHOME CO.,LTD.",
+      },
+      Object {
+        "count": 3,
+        "name": "QINGDAO ZHONGSEN INDUSTRIAL CO.,LTD",
+      },
+      Object {
+        "count": 3,
+        "name": "SOUTH ASIA KNITTING FACTORY LTD.",
+      },
+      Object {
+        "count": 3,
+        "name": "TIANJIN CHINAPACK IMP.& EXP.CO.,LTD",
+      },
+      Object {
+        "count": 2,
+        "name": "ARMANA APPARELS LTD.",
+      },
+      Object {
+        "count": 2,
+        "name": "CIXI YONGYE FURNITURE CO.,LTD",
+      },
+      Object {
+        "count": 2,
+        "name": "COSMOSUPPLYLAB LTD",
+      },
+      Object {
+        "count": 2,
+        "name": "DONGGUAN LONGCHEN TRADING CO. LTD",
+      },
+      Object {
+        "count": 2,
+        "name": "ESQUEL GARMENT MANUFACTURING",
+      },
+      Object {
+        "count": 2,
+        "name": "ESQUEL GARMENT MANUFACTURING VIET",
+      },
+      Object {
+        "count": 2,
+        "name": "HON HAI PRECISION INDUSTRY CO.,LTD",
+      },
+      Object {
+        "count": 2,
+        "name": "HSIN HUNG TEXTILES LIMITED",
+      },
+      Object {
+        "count": 2,
+        "name": "POLENZ GMBH& CO. KG",
+      },
+      Object {
+        "count": 2,
+        "name": "PRO SPORTS GIAO THUY JOINT",
+      },
+      Object {
+        "count": 2,
+        "name": "PT DAEHAN GLOBAL YEN DUNG JOINT",
+      },
+      Object {
+        "count": 2,
+        "name": "PT. MELADY GARMENT INTERNATIONAL",
+      },
+      Object {
+        "count": 2,
+        "name": "QINGDAO XINHUARUI INDUSTRY AND",
+      },
+      Object {
+        "count": 2,
+        "name": "REFAT GARMENTS LIMITED,",
+      },
+      Object {
+        "count": 2,
+        "name": "RICHTER LIGHTING TECHNOLOGIES GMBH",
+      },
+      Object {
+        "count": 2,
+        "name": "SUN GARMENT TEXTILE VIETNAM CO.,",
+      },
+      Object {
+        "count": 2,
+        "name": "TRADE FACILITATOR FUFILLMENT(TIANJI",
+      },
+      Object {
+        "count": 2,
+        "name": "TULIP IMPORT & EXPORT CO.,LTD",
+      },
+      Object {
+        "count": 2,
+        "name": "VINA KYUNG SEUNG TRADING CO., LTD",
+      },
+      Object {
+        "count": 2,
+        "name": "YAKJIN VIETNAM CO., LTD",
+      },
+    ],
+    "totalRefinements": 100,
+  },
+  Object {
+    "category": "Location",
+    "field": "ShipperAddress",
+    "refinements": Array [
+      Object {
+        "count": 113,
+        "name": "13 A/F S TOWER WORLD FINANCECTRTSI MSHATSUIKL HONG KONG HK",
+      },
+      Object {
+        "count": 95,
+        "name": "5/F, SOO BOK BUILDING 110 SAIMDANG-RO, SEOCHO-DONG SEOCHO-GU,SEOUL, KOREA",
+      },
+      Object {
+        "count": 69,
+        "name": "JL. BRAGA NO. 106 BANDUNG 40111 INDONESIA",
+      },
+      Object {
+        "count": 59,
+        "name": "JL.SODONG/ALTERNATIF JONGGOL RT.001/RW 003 DS.MEKARGALIH KECAMATAN CIKALONG KULON JAVA TEBARAT, INDONESIA",
+      },
+      Object {
+        "count": 59,
+        "name": "PLOT NO.983, PO BOX#40 AD-DULAYL INDUSTRIAL ESTATE AD DULAYL 13136 JO",
+      },
+      Object {
+        "count": 57,
+        "name": "NO 261, SIRI DHAMMA MAWATHA",
+      },
+      Object {
+        "count": 51,
+        "name": "AD DULAYL INDL PARK, 40 13136 AQABA 962-65522521 TEL EX 962-6552 04",
+      },
+      Object {
+        "count": 49,
+        "name": "AD-DULAYL INDUSTRIAL PARK AD-DULAYL AZ 13136 JORDAN",
+      },
+      Object {
+        "count": 48,
+        "name": "AD-DULAYL, AD-DULAYL INDUSTRIAL PAR AMMAN AM 13136 JORDAN",
+      },
+      Object {
+        "count": 46,
+        "name": "CENTRAL BLVD., BO. MAGUYAM SILANG CAVITE,PHILIPPINES TAX ID: 221-965-696-000",
+      },
+      Object {
+        "count": 43,
+        "name": "INDUSTRIAL ESTATE, AL-HUSSEIN BIN A AL KARAK KA 61112 JORDAN",
+      },
+      Object {
+        "count": 40,
+        "name": ". SIRI DHAMMA MAWATHA COLOMBO 00100 LK",
+      },
+      Object {
+        "count": 40,
+        "name": "10TH INDL DIST N 2 DONGHUAN RD LONG HUA BAOAN SHENZHEN GD CN",
+      },
+      Object {
+        "count": 36,
+        "name": "JL.SODONG ALTERNATIF JONGGOL RT.001 RW 003 DS.MEKARGALIH KECAMATAN CIKALONG KULON JAVA TE BARAT, INDONESIA",
+      },
+      Object {
+        "count": 33,
+        "name": ". SIRI DHAMMA MAWATHA COLOMBO CO 0020 0 LK",
+      },
+      Object {
+        "count": 33,
+        "name": "AL-HUSSEIN BIN ABDULLAHII INDUSTRIAL ESTATE, P.O BOX 7 KARAK 61112 JORDAN 962-65522521 TEL EX 962-6552 04",
+      },
+      Object {
+        "count": 33,
+        "name": "STOCK COMPANY KM24 HIGHWAY NO 5A. DISU COMMUNE, MYHAO DIST HUNGYEN PROVINCE VIETNAM",
+      },
+      Object {
+        "count": 31,
+        "name": ". SIRI DHAMMA MAWATHA COLOMBO CO 0010 0 LK",
+      },
+      Object {
+        "count": 31,
+        "name": "LIU WUDISTRICT SHEK KIT TOWN DONGGUAN GUANGDONG CN",
+      },
+      Object {
+        "count": 28,
+        "name": "13 F,HARBOUR CENTRE,25 HARBOUR ROAD,WANCHAI,HONG KONG",
+      },
+      Object {
+        "count": 27,
+        "name": "CN13,KHAI QUANG INDUSTRIAL AREA, KHAI QUANG WARD, VINH YEN CITY VINH PHUC PROVINCE, VIETNAM 84-2113842204 TEL EX 84-21130 42",
+      },
+      Object {
+        "count": 26,
+        "name": "AD- DULAYL LNDUSTRIAL PARK P.O.BOX 204 AD-DULAYL JO",
+      },
+      Object {
+        "count": 25,
+        "name": "FLAT E2 F,4 F.,BLK.2,YIP FAT FTY BLDG.,73-75 HOI YUEN RD., KWUN TONG,",
+      },
+      Object {
+        "count": 24,
+        "name": "1-8 BLOCK A1,4-8 BLOCK A4,1-3&9-10 BLOCK KB1, TAN THOI HIEP IZ, HIEP THANH WARD, DIST 12, HCM CITY, VN 84-2837176300 TEL EX 84-08371 76",
+      },
+      Object {
+        "count": 23,
+        "name": "5-6 F., CRYSTAL INDUSTRIAL BUILDING,71 HOW MING STREET, KWUN TONG, HONG KONG",
+      },
+      Object {
+        "count": 23,
+        "name": "BLOCK 3 LOT 9, INTERSTAR ST. LIIP-SEPZA,BINAN,LAGUNA. PHILIPPINES",
+      },
+      Object {
+        "count": 22,
+        "name": "ROOM 3306-07,33 F.,LAWS COMMERCIAL PLAZA,788 CHEUNG SHA WAN ROAD, LAI CHI KOK,KLN,HK.",
+      },
+      Object {
+        "count": 20,
+        "name": "JL SULAWESI BLOK D 45B UNIT USAHA KAWASAN CAKUNG, KBN KEL.SUKAPURA, KEC.CILINCING JAKARTA-INDONESIA TE14140",
+      },
+      Object {
+        "count": 20,
+        "name": "PLOT NO. 983 AD-DULAYL INDUSTRIAL ESTATE AD DULAYL 13136 JORDAN 962-65522521 TEL EX 962-6552 04",
+      },
+      Object {
+        "count": 19,
+        "name": "(TIANJIN) CO.,LTD. NO. 9 BINSHUI ROAD HEXI DISTRICT TIANJIN,CHINA CN",
+      },
+      Object {
+        "count": 19,
+        "name": "JL. COASTER NO. 8 BLOCK A 15-15A TEPZ LAMICITRA, SEMARANG 50174 CENTRAL JAVA, INDONESIA",
+      },
+      Object {
+        "count": 19,
+        "name": "RIZAL ST. BGY. SANTOL MATAAS NA KAHOY BATANGAS PHILIPPINES 4223 TAX ID: 008-320-961-000",
+      },
+      Object {
+        "count": 18,
+        "name": "13 A/F S TOWER WORLD FINANCE CTR TSIMSHATSUIKL HONG KONG HONGKONG,CHINA CN",
+      },
+      Object {
+        "count": 18,
+        "name": "UNIT A6,9/F SILVERCORP INTERNATIONA KOWLOON . HONG KONG TE31158545",
+      },
+      Object {
+        "count": 17,
+        "name": "FLAT E2&F,4/F.,BLK.2,YIP FAT FTY BLDG.,73-75 HOI YUEN RD., KWUN TONG, 852-23424192 TEL EX 852-2341 84",
+      },
+      Object {
+        "count": 17,
+        "name": "ROOM 3306-07, 33/F., LAWS COMMERCIA L PLAZA, 788 CHEUNG SHA WAN ROAD, LAI CHI KO K, KLN HONG KONG HK",
+      },
+      Object {
+        "count": 16,
+        "name": "JL. RAYA SEMARANG PURWODADI KM 17 DESA KALITENGAH KEC. MRANGGEN KAB. DEMAK, SEMARANG 59567",
+      },
+      Object {
+        "count": 16,
+        "name": "UNIT A, 7 F., WING CHEUNG IND. BLDG., 58-70 KWAI CHEONG RD, KWAI CHUNG, NT., HK",
+      },
+      Object {
+        "count": 15,
+        "name": "12 F WING TAIFACTORY BUILDING,NO.3 TAI YIP STREET,KWUN TONG,HK",
+      },
+      Object {
+        "count": 15,
+        "name": "13 F.,HARBOUR CENTER 25 HARBOUR ROAD,WAN CHAI, HONGKONG",
+      },
+      Object {
+        "count": 15,
+        "name": "JL. KADUDAMPIT KM.05 RT.17/04 KEC.KADUDAMPIT - KAB SUKABUMI, WEST JA TELP. 0266-226985",
+      },
+      Object {
+        "count": 15,
+        "name": "JL. KARANG TENGAH KM. 14 NO. 741A KP. SELAAWI DESA KARANG TENGAH WEST JA KECAMATAN CIBADAK-KAB. TE SUKABUMI, INDON",
+      },
+      Object {
+        "count": 15,
+        "name": "ROOM 20A,KIU FU COMMERCIAL BUILDIN KOWLOON . HONG KONG TE31158545",
+      },
+      Object {
+        "count": 13,
+        "name": "JL SULAWESI BLOK D 45B UNIT USAHA KAWASAN CAKUNG, KBN KEL.SUKAPURA, KEC.CILINCING JAKARTA-INDONESIA TE 14140",
+      },
+      Object {
+        "count": 13,
+        "name": "JL. KARANG TENGAH KM. 14 NO. 741A KP. SELAAWI DESA KARANG TENGAH WEST JA KECAMATAN CIBADAK-KAB. TESUKABUMI, INDON",
+      },
+      Object {
+        "count": 12,
+        "name": "CO.,LTD AI QUOC WARD, HAI DUONG CITY, HAI DUONG PROVINCE, VIETNAM 84-2203752099 TEL EX 84-32037 52",
+      },
+      Object {
+        "count": 12,
+        "name": "MINUANGODA ROAD, EKALA, JA-ELLA, SRI LANKA SVAT000236",
+      },
+      Object {
+        "count": 11,
+        "name": ". MINUANGODA ROAD COLOMBO CO 00200 LK",
+      },
+      Object {
+        "count": 11,
+        "name": "AD DULAYL INDL PARK, 40 13136 JORDAN 962-65522521 TEL EX 962-6552 04",
+      },
+      Object {
+        "count": 10,
+        "name": ". NAWAM MW COLOMBO CO 00200 LK",
+      },
+      Object {
+        "count": 10,
+        "name": "CN13,KHAI QUANG INDUSTRIAL AREA, KHAI QUANG WARD, VINH YEN CITY VINH PHUC PROVINCE, VIETNAM",
+      },
+      Object {
+        "count": 10,
+        "name": "LOT J2-CN, D1 STREET, MY PHUOC INDUSTRIAL PARK, BEN CAT DISTRICT, BINH DUONG PROVINCE, VIETNAM 84-6503566500 TEL EX 84-65035 66",
+      },
+      Object {
+        "count": 10,
+        "name": "NO.32, 2A ROAD, BIEN HOA INDUSTRIAL ZONE II,DONG NAI PROVINCE,VIETNAM 84-908839220",
+      },
+      Object {
+        "count": 10,
+        "name": "PLOT NO. 983 AD-DULAYL INDUSTRIAL ESTATE AD DULAYL 13136 JORDAN 962-53825508 TEL EX 962-5382 55",
+      },
+      Object {
+        "count": 10,
+        "name": "STOCK COMPANY KM24 HIGHWAY NO 5A. DISU COMMUNE, MYHAO DIST HUNGYEN PROVINCE VIETNAM 84-2213944045 TEL EX 84-32139 53",
+      },
+      Object {
+        "count": 9,
+        "name": "LIU WU DISTRICT, SANHENG ROAD XINCHENG DISTRICT, SHEK KIT TOWN DONGGUAN GUANGDONG CN",
+      },
+      Object {
+        "count": 8,
+        "name": ". MINUANGODA ROAD JA-ELA CO 11410 LK",
+      },
+      Object {
+        "count": 8,
+        "name": "13 A F S TOWER WORLD FINANCE CTR TS IMSHATSUIKL HONG KONG",
+      },
+      Object {
+        "count": 8,
+        "name": "CO.,LTD AI QUOC WARD, HAI DUONG CITY, HAI DUONG PROVINCE, VIETNAM",
+      },
+      Object {
+        "count": 8,
+        "name": "HOANG DIEU INDUSTRIAL ZONE GIA LOC DISTRICT, HAI DUONG PROVINCE VIETNAM 84-2203718304 TEL EX 84-32037 18",
+      },
+      Object {
+        "count": 8,
+        "name": "LIU WU SANHENG ROAD XINCHENG DISTRICT SHEKKIT TOWN DONGGUAN CITY GUANGDONG PROVIN 523 000 CN",
+      },
+      Object {
+        "count": 8,
+        "name": "NO.9 BINSHUI ROAD HEXI DISTRICT TIANJIN CHINA",
+      },
+      Object {
+        "count": 7,
+        "name": "CO., LTD. NHON HOA VILLAGE 1, DUC DUC HOA 81 000 VN",
+      },
+      Object {
+        "count": 7,
+        "name": "JINHUAMEI INDUSTRIAL PARK, NO.2 KAIFANAN RD NANPUXISAN DASHI,PANYU,GUANGZHOU,CHINA",
+      },
+      Object {
+        "count": 7,
+        "name": "JL. SODONG/ ALTERNATIF JONGGOL DS. MEKARGALIH KEC. CIKALONG KULON INDONESIA",
+      },
+      Object {
+        "count": 7,
+        "name": "LOTS 6-11, AREA E1, TAN THOI HIEP IZ, HIEP THANH WARD, DISTRICT 12, HO CHI MINH,VIETNAM 84-2839331220 TEL EX 84-08382 39",
+      },
+      Object {
+        "count": 7,
+        "name": "M - HOA BINH CO LTD. LUONG SON INDUSTRIAL PARK,HOA SON 84-2743757629 TEL EX 84-65037 57",
+      },
+      Object {
+        "count": 7,
+        "name": "NO. 374 BRGY SAN FELIX STO TOMAS BATANGAS CITY, PHILIPPINES TAX ID: 000-701-362-000",
+      },
+      Object {
+        "count": 7,
+        "name": "ROOM 3306-07,33/F.,LAWS COMMERCIAL PLAZA,788 CHEUNG SHA WAN ROAD, LAI CHI KOK,KLN,HK. 852-23711154 TEL EX 852-2370 67",
+      },
+      Object {
+        "count": 7,
+        "name": "THAP-HONG-KY INDUSTRIAL GROUP- DIEN HONG COMMMUNE-DIEN CHAU DISTRICT, NGHE AN PROVINCE, VIET TE NAM.",
+      },
+      Object {
+        "count": 6,
+        "name": ". MINUANGODA ROAD COLOMBO CO 00100 LK",
+      },
+      Object {
+        "count": 6,
+        "name": ". NAWAM MW COLOMBO CO 00100 LK",
+      },
+      Object {
+        "count": 6,
+        "name": "13 A F S TOWER WORLD FINANCE CTR TS IMSHATSUIKL",
+      },
+      Object {
+        "count": 6,
+        "name": "13 A/F S TOWER WORLD FINANCE CTR TSIMSHATSUIKL HONG KONG TE086-021-61807387",
+      },
+      Object {
+        "count": 6,
+        "name": "D. NO.08 ROAD 15, QUARTER 4, LINHTRUNG WARD,THU DUC DISTRICT, HOCHIMINH 84-837245211 TEL EX 84-08372 45",
+      },
+      Object {
+        "count": 6,
+        "name": "JIN) CO.,LTD NO.9 BINSHUI ROAD HEXI DISTRICT TIANJIN CHINA",
+      },
+      Object {
+        "count": 6,
+        "name": "JL. KADUDAMPIT KM.05 RT.17 04 KEC.KADUDAMPIT - KAB SUKABUMI, WEST JA TELP. 0266-226985",
+      },
+      Object {
+        "count": 6,
+        "name": "TAN DAN COMMUNE, CHI LINH TOWN HAI DUONG PROVINCE, VIETNAM 84-3203888897 TEL EX 84-32038 88",
+      },
+      Object {
+        "count": 5,
+        "name": "- HOA BINH CO LTD. LUONG SON INDUSTRIAL PARK,HOA SON COMMUNE,LUONG SON DISTRICT,HOA TEBINH PROVINCE,VIETNAM",
+      },
+      Object {
+        "count": 5,
+        "name": ". MINUANGODA ROAD JA-ELA 11410 LK",
+      },
+      Object {
+        "count": 5,
+        "name": "1-8 BLOCK A1,4-8 BLOCK A4,1-3&9-10 BLOCK KB1, TAN THOI HIEP IZ, HIEP THANH WARD, DIST 12, HCM CITY, VN 84-2839331220 TEL EX 84-08382 39",
+      },
+      Object {
+        "count": 5,
+        "name": "15TH FLOOR, DAN 6, 6 FUI YIU KOK STREET, TSUENWAN, KOWLOON, HONG KONG",
+      },
+      Object {
+        "count": 5,
+        "name": "4 F.,BLK B,UNIT NO.7,PO LUNG CENTRE,11 WANG CHIU ROAD, KOWLOON BAY,KOWLOON,HONG KONG",
+      },
+      Object {
+        "count": 5,
+        "name": "AREA NO. 6, DON TAY, THANH VINH WARD PHU THO TOWN, PHU THO PROVINCE 293500, VIETNAM 84-466751553 TEL EX 84-04628 52",
+      },
+      Object {
+        "count": 5,
+        "name": "C O OCEAN KEN INTERNATIONAL LTD. RM 1104, 11 F WITTY COMM BLDG 1A-1L TUNG CHOI ST MONG KOK KL HK",
+      },
+      Object {
+        "count": 5,
+        "name": "GARMENT FACTORY NO.123,AVENIDA ALMIRANTE LACERDA HIP WA EDIF. TEIND.10 B MACAU",
+      },
+      Object {
+        "count": 5,
+        "name": "JL. KADUDAMPIT KM.05 RT.17/04 KADUDAMPIT SUKABUMI INDONESIA",
+      },
+      Object {
+        "count": 5,
+        "name": "JL. KARANG TENGAH KM. 14 NO. 741A KP. SELAAWI DESA KARANG TENGAH SUKABUMI-INDONESIA",
+      },
+      Object {
+        "count": 5,
+        "name": "JL. RAYA CIDAHU KM.2 KP PONDOKKASO. DESA PONDOKKASO. TONGGOH KECAMATAN CIDAHU KABUPATEN. SUKABUMI TEINDONESIA",
+      },
+      Object {
+        "count": 5,
+        "name": "JL. SULAWESI BLOK D 45B UNITUSAHA CAKUNG, KBN KEL. SUKAPURA INDONESIA",
+      },
+      Object {
+        "count": 5,
+        "name": "STOCK COMPANY DOAN BAI COMMUNE, HIEP HOA DISTRICT BAC GIANG PROVINCE , VIETNAM",
+      },
+      Object {
+        "count": 4,
+        "name": ". NO.18 LOT C1 THONG NHAT ROAD DI AN 72000 VN",
+      },
+      Object {
+        "count": 4,
+        "name": "12/F CHANGCHUN MANSION NO.159, NINGBO CN",
+      },
+      Object {
+        "count": 4,
+        "name": "AD-DULAYL INDUSTRIAL PARK P.O.BOX 204 AD-DULAYL 962-53824766 TEL EX 962-5382 47",
+      },
+      Object {
+        "count": 4,
+        "name": "GOODS GIFT CO., LTD 1-5F,NO.4,SOUTH SIDE OF XINGYE LU, NANCUN TOWN,PANYU DISTRICT,GUANG TEZHOU CITY,GUANGDONG P.R.CHINA",
+      },
+      Object {
+        "count": 4,
+        "name": "HOANG DIEU INDUSTRIAL ZONE GIA LOC DISTRICT, HAI DUONG PROVINCE VIETNAM",
+      },
+      Object {
+        "count": 4,
+        "name": "JL. KADUDAMPIT KM.05 RT.17/04 KEC. KADUDAMPIT - KAB. SUKABUMI INDONESIA",
+      },
+      Object {
+        "count": 4,
+        "name": "JL. RAYA BOGOR KM 28 RT006 RW02 KEL. PEKAYON KEC. PASAR REB JAKARTA TIMUR",
+      },
+      Object {
+        "count": 4,
+        "name": "JL.RAYA KARANG TENGAH KM.14 NO.741A KP.SELAAWI DS.KARANG TENGAH KAB. SUKABUMI",
+      },
+      Object {
+        "count": 4,
+        "name": "JL.RAYA MAYOR OKING NO.112B KEL.CIRIMEKAR KEC.CIBINONG KAB.BOGOR, 16918 - INDONESIA",
+      },
+    ],
+    "totalRefinements": 100,
+  },
+]
+`;

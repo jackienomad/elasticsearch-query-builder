@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBuilder class buildExclude should return mapped exclude object 1`] = `
+Array [
+  Object {
+    "match_phrase": Object {
+      "Consignee.Cleaned Address Breakdown.PlaceName": "Chicago",
+    },
+  },
+  Object {
+    "match_phrase": Object {
+      "Consignee.Cleaned Address Breakdown.StateName": "Arizona",
+    },
+  },
+  Object {
+    "match_phrase": Object {
+      "Consignee.Cleaned Address Breakdown.ZipCode": "90210",
+    },
+  },
+  Object {
+    "match_phrase": Object {
+      "Shipper.Address": "Genius Drive",
+    },
+  },
+  Object {
+    "match_phrase": Object {
+      "Country of Origin": "ph",
+    },
+  },
+  Object {
+    "match_phrase": Object {
+      "Port of Unlading": "Port of Los Angeles",
+    },
+  },
+  Object {
+    "match_phrase": Object {
+      "Foreign Port of Lading": "Port of Busan",
+    },
+  },
+]
+`;
+
+exports[`SearchBuilder class buildInclude should return mapped include object 1`] = `
+Array [
+  Object {
+    "bool": Object {
+      "should": Array [
+        Object {
+          "match_phrase": Object {
+            "Consignee.Cleaned Address Breakdown.PlaceName.untouched": "Chicago",
+          },
+        },
+      ],
+    },
+  },
+  Object {
+    "bool": Object {
+      "should": Array [
+        Object {
+          "match_phrase": Object {
+            "Consignee.Cleaned Address Breakdown.StateName.untouched": "Arizona",
+          },
+        },
+        Object {
+          "match_phrase": Object {
+            "Consignee.Cleaned Address Breakdown.StateName.untouched": "Texas",
+          },
+        },
+      ],
+    },
+  },
+  Object {
+    "bool": Object {
+      "should": Array [
+        Object {
+          "match_phrase": Object {
+            "Consignee.Cleaned Address Breakdown.ZipCode.untouched": "90210",
+          },
+        },
+        Object {
+          "match_phrase": Object {
+            "Consignee.Cleaned Address Breakdown.ZipCode.untouched": "88410",
+          },
+        },
+      ],
+    },
+  },
+  Object {
+    "bool": Object {
+      "should": Array [
+        Object {
+          "match_phrase": Object {
+            "Shipper.Address.untouched": "Genius Drive",
+          },
+        },
+      ],
+    },
+  },
+  Object {
+    "bool": Object {
+      "should": Array [
+        Object {
+          "match_phrase": Object {
+            "Country of Origin.untouched": "ph",
+          },
+        },
+      ],
+    },
+  },
+  Object {
+    "bool": Object {
+      "should": Array [
+        Object {
+          "match_phrase": Object {
+            "Port of Unlading.untouched": "Port of Los Angeles",
+          },
+        },
+      ],
+    },
+  },
+  Object {
+    "bool": Object {
+      "should": Array [
+        Object {
+          "match_phrase": Object {
+            "Foreign Port of Lading.untouched": "Port of Busan",
+          },
+        },
+      ],
+    },
+  },
+]
+`;
+
+exports[`SearchBuilder class buildKeywords should return mapped include object 1`] = `
+Array [
+  Object {
+    "bool": Object {
+      "should": Array [
+        Object {
+          "match": Object {
+            "Consignee.Name": Object {
+              "minimum_should_match": "75%",
+              "query": "Chicago",
+            },
+          },
+        },
+        Object {
+          "match": Object {
+            "Consignee.Name": Object {
+              "minimum_should_match": "100%",
+              "query": "Arizona",
+            },
+          },
+        },
+      ],
+    },
+  },
+  Object {
+    "bool": Object {
+      "should": Array [
+        Object {
+          "match_phrase": Object {
+            "Shipper.Name": "Chicago",
+          },
+        },
+        Object {
+          "match_phrase": Object {
+            "Containers.Cargoes.Description": "apple juice",
+          },
+        },
+      ],
+    },
+  },
+]
+`;
+
+exports[`SearchBuilder class buildKeywords should return mapped include object 2`] = `
+Array [
+  Object {
+    "match_phrase": Object {
+      "Containers.Cargoes.Description": "apple",
+    },
+  },
+]
+`;
+
+exports[`SearchBuilder class buildMisc should return mapped misc objects 1`] = `
+Array [
+  Object {
+    "bool": Object {
+      "should": Array [
+        Object {
+          "match_phrase": Object {
+            "Bill Type": "H",
+          },
+        },
+        Object {
+          "match_phrase": Object {
+            "Bill Type": "House",
+          },
+        },
+      ],
+    },
+  },
+  Object {
+    "match_phrase": Object {
+      "Bill Type": "Master",
+    },
+  },
+]
+`;
+
+exports[`SearchBuilder class buildMisc should return mapped misc objects 2`] = `
+Array [
+  Object {
+    "match_phrase": Object {
+      "Bill Type": "Master",
+    },
+  },
+]
+`;
+
+exports[`SearchBuilder class buildQuery should build an es query 1`] = `
+Object {
+  "body": Object {
+    "from": 0,
+    "query": Object {
+      "bool": Object {
+        "filter": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match_phrase": Object {
+                    "Consignee.Cleaned Address Breakdown.PlaceName.untouched": "Chicago",
+                  },
+                },
+                Object {
+                  "match_phrase": Object {
+                    "Consignee.Cleaned Address Breakdown.PlaceName.untouched": "Los Angeles",
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match_phrase": Object {
+                    "Consignee.Cleaned Address Breakdown.StateName.untouched": "Arizona",
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match_phrase": Object {
+                    "Bill Type": "H",
+                  },
+                },
+                Object {
+                  "match_phrase": Object {
+                    "Bill Type": "House",
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "match_phrase": Object {
+              "Bill Type": "Master",
+            },
+          },
+          Object {
+            "range": Object {
+              "Arrival Date": Object {
+                "gte": "1512938867",
+                "lte": "1544475436",
+              },
+            },
+          },
+        ],
+        "must": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match": Object {
+                    "Consignee.Name": Object {
+                      "minimum_should_match": "75%",
+                      "query": "Chicago",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match_phrase": Object {
+                    "Shipper.Name": "Chicago",
+                  },
+                },
+                Object {
+                  "match": Object {
+                    "Shipper.Name": Object {
+                      "minimum_should_match": "100%",
+                      "query": "Chicago",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match_phrase": Object {
+                    "Containers.Cargoes.Description": "orange",
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "exists": Object {
+              "field": "Consignee.Name",
+            },
+          },
+        ],
+        "must_not": Array [
+          Object {
+            "match_phrase": Object {
+              "Containers.Cargoes.Description": "apple",
+            },
+          },
+          Object {
+            "match_phrase": Object {
+              "Country of Origin": "ph",
+            },
+          },
+          Object {
+            "match_phrase": Object {
+              "Port of Unlading": "Port of Los Angeles",
+            },
+          },
+          Object {
+            "match_phrase": Object {
+              "Bill Type": "Master",
+            },
+          },
+        ],
+      },
+    },
+    "size": 20,
+    "sort": Array [
+      Object {
+        "Shipper.Name.untouched": Object {
+          "order": "desc",
+        },
+      },
+      "_score",
+    ],
+    "track_scores": true,
+  },
+  "index": "sample index",
+  "type": "sample type",
+}
+`;
+
+exports[`SearchBuilder class buildSorting should handle ascending sort 1`] = `
+Array [
+  Object {
+    "Shipper.Name.untouched": Object {
+      "order": "asc",
+    },
+  },
+  "_score",
+]
+`;
+
+exports[`SearchBuilder class buildSorting should handle descending sort 1`] = `
+Array [
+  Object {
+    "Consignee.Name.untouched": Object {
+      "order": "desc",
+    },
+  },
+  "_score",
+]
+`;
+
+exports[`SearchBuilder class buildSorting should handle no specified order 1`] = `
+Array [
+  Object {
+    "Containers.Marks.untouched": Object {
+      "order": "asc",
+    },
+  },
+  "_score",
+]
+`;
+
+exports[`SearchBuilder class buildSorting should return default sort object if empty 1`] = `
+Array [
+  Object {
+    "Arrival Date": Object {
+      "order": "asc",
+    },
+  },
+  "_score",
+]
+`;

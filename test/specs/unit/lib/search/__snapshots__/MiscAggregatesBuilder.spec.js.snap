@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+Object {
+  "BlankConsigneesExcluded": Object {
+    "filter": Object {
+      "exists": Object {
+        "field": "Consignee",
+      },
+    },
+  },
+  "BlankShippersExcluded": Object {
+    "filter": Object {
+      "exists": Object {
+        "field": "Shipper",
+      },
+    },
+  },
+  "HouseShipmentsOnly": Object {
+    "filter": Object {
+      "bool": Object {
+        "should": Array [
+          Object {
+            "match_phrase": Object {
+              "Bill Type": "H",
+            },
+          },
+          Object {
+            "match_phrase": Object {
+              "Bill Type": "House",
+            },
+          },
+        ],
+      },
+    },
+  },
+  "MasterShipmentsExcluded": Object {
+    "filter": Object {
+      "bool": Object {
+        "must_not": Object {
+          "match_phrase": Object {
+            "Consignee": "Master",
+          },
+        },
+      },
+    },
+  },
+  "MasterShipmentsOnly": Object {
+    "filter": Object {
+      "bool": Object {
+        "must": Object {
+          "match_phrase": Object {
+            "Bill Type": "Master",
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`MiscAggregatesBuilder generateFilterObject should build filter for MiscTypes.BLANK_CONSIGNEES_EXCLUDED 1`] = `
+Object {
+  "exists": Object {
+    "field": "Consignee",
+  },
+}
+`;
+
+exports[`MiscAggregatesBuilder generateFilterObject should build filter for MiscTypes.BLANK_SHIPPERS_EXCLUDED 1`] = `
+Object {
+  "exists": Object {
+    "field": "Shipper",
+  },
+}
+`;
+
+exports[`MiscAggregatesBuilder generateFilterObject should build filter for MiscTypes.HOUSE_SHIPMENTS_ONLY 1`] = `
+Object {
+  "bool": Object {
+    "should": Array [
+      Object {
+        "match_phrase": Object {
+          "Bill Type": "H",
+        },
+      },
+      Object {
+        "match_phrase": Object {
+          "Bill Type": "House",
+        },
+      },
+    ],
+  },
+}
+`;
+
+exports[`MiscAggregatesBuilder generateFilterObject should build filter for MiscTypes.MASTER_SHIPMENTS_EXCLUDED 1`] = `
+Object {
+  "bool": Object {
+    "must_not": Object {
+      "match_phrase": Object {
+        "Consignee": "Master",
+      },
+    },
+  },
+}
+`;
+
+exports[`MiscAggregatesBuilder generateFilterObject should build filter for MiscTypes.MASTER_SHIPMENTS_ONLY 1`] = `
+Object {
+  "bool": Object {
+    "must": Object {
+      "match_phrase": Object {
+        "Bill Type": "Master",
+      },
+    },
+  },
+}
+`;

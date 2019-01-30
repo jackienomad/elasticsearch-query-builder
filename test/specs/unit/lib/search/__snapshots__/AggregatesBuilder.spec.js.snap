@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AggregatesBuilder should build an aggregates object 1`] = `
+Object {
+  "Consignee": Object {
+    "terms": Object {
+      "field": "Consignee.Name.untouched",
+      "size": 100,
+    },
+  },
+  "ConsigneeCity": Object {
+    "terms": Object {
+      "field": "Consignee.Cleaned Address Breakdown.PlaceName.untouched",
+      "size": 100,
+    },
+  },
+  "ConsigneeState": Object {
+    "terms": Object {
+      "field": "Consignee.Cleaned Address Breakdown.StateName.untouched",
+      "size": 100,
+    },
+  },
+  "ConsigneeStreet": Object {
+    "terms": Object {
+      "field": "Consignee.Cleaned Address Breakdown.StreetName.untouched",
+      "size": 100,
+    },
+  },
+  "ConsigneeZipCode": Object {
+    "terms": Object {
+      "field": "Consignee.Cleaned Address Breakdown.ZipCode.untouched",
+      "size": 100,
+    },
+  },
+  "CountryOfOrigin": Object {
+    "terms": Object {
+      "field": "Country of Origin.untouched",
+      "size": 100,
+    },
+  },
+  "DestinationPort": Object {
+    "terms": Object {
+      "field": "Port of Unlading.untouched",
+      "size": 100,
+    },
+  },
+  "ForeignPort": Object {
+    "terms": Object {
+      "field": "Foreign Port of Lading.untouched",
+      "size": 100,
+    },
+  },
+  "MarksAndNumbers": Object {
+    "terms": Object {
+      "field": "Containers.Marks.untouched",
+      "size": 100,
+    },
+  },
+  "NotifyParty": Object {
+    "terms": Object {
+      "field": "Notify Party.Name.untouched",
+      "size": 100,
+    },
+  },
+  "NotifyPartyAddress": Object {
+    "terms": Object {
+      "field": "Notify Party.Cleaned Address.untouched",
+      "size": 100,
+    },
+  },
+  "Shipper": Object {
+    "terms": Object {
+      "field": "Shipper.Name.untouched",
+      "size": 100,
+    },
+  },
+  "ShipperAddress": Object {
+    "terms": Object {
+      "field": "Shipper.Address.untouched",
+      "size": 100,
+    },
+  },
+}
+`;

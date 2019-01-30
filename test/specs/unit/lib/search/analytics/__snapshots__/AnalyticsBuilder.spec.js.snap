@@ -1,0 +1,703 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Analytics AnalyticsBuilder build a query and aggregate term  should build a query for the analytics as a aggregate term consignees 1`] = `
+Object {
+  "body": Object {
+    "aggs": Object {
+      "shipmentAggregate": Object {
+        "aggs": Object {
+          "containers_count": Object {
+            "sum": Object {
+              "field": "Number of Containers",
+            },
+          },
+          "weight_kg": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+          "weight_lb": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+        },
+        "terms": Object {
+          "field": "Consignee.Name.untouched",
+          "order": Array [
+            Object {
+              "_count": "desc",
+            },
+          ],
+          "size": 5,
+        },
+      },
+    },
+    "from": 0,
+    "query": Object {
+      "bool": Object {
+        "filter": Array [
+          Object {
+            "range": Object {
+              "Arrival Date": Object {
+                "gte": "1512938867",
+                "lte": "1544475436",
+              },
+            },
+          },
+        ],
+        "must": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match": Object {
+                    "Consignee.Name": Object {
+                      "minimum_should_match": "75%",
+                      "query": "apple",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "exists": Object {
+              "field": "Consignee.Name",
+            },
+          },
+        ],
+        "must_not": Array [],
+      },
+    },
+    "size": 0,
+    "track_scores": true,
+  },
+  "index": "us_import",
+  "type": "shipments",
+}
+`;
+
+exports[`Search Analytics AnalyticsBuilder build a query and aggregate term  should build a query for the analytics as a aggregate term consignees 2`] = `
+Object {
+  "body": Object {
+    "aggs": Object {
+      "shipmentAggregate": Object {
+        "aggs": Object {
+          "containers_count": Object {
+            "sum": Object {
+              "field": "Number of Containers",
+            },
+          },
+          "weight_kg": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+          "weight_lb": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+        },
+        "terms": Object {
+          "field": "Consignee.Name.untouched",
+          "order": Array [
+            Object {
+              "_count": "desc",
+            },
+          ],
+          "size": 5,
+        },
+      },
+    },
+    "from": 0,
+    "query": Object {
+      "bool": Object {
+        "filter": Array [
+          Object {
+            "range": Object {
+              "Arrival Date": Object {
+                "gte": "1512938867",
+                "lte": "1544475436",
+              },
+            },
+          },
+        ],
+        "must": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match": Object {
+                    "Consignee.Name": Object {
+                      "minimum_should_match": "75%",
+                      "query": "apple",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "exists": Object {
+              "field": "Consignee.Name",
+            },
+          },
+        ],
+        "must_not": Array [],
+      },
+    },
+    "size": 0,
+    "track_scores": true,
+  },
+  "index": "us_import",
+  "type": "shipments",
+}
+`;
+
+exports[`Search Analytics AnalyticsBuilder build a query and aggregate term  should build a query for the analytics as a aggregate term foreign_ports 1`] = `
+Object {
+  "body": Object {
+    "aggs": Object {
+      "shipmentAggregate": Object {
+        "aggs": Object {
+          "containers_count": Object {
+            "sum": Object {
+              "field": "Number of Containers",
+            },
+          },
+          "weight_kg": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+          "weight_lb": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+        },
+        "terms": Object {
+          "field": "Foreign Port of Lading.untouched",
+          "order": Array [
+            Object {
+              "_count": "desc",
+            },
+          ],
+          "size": 5,
+        },
+      },
+    },
+    "from": 0,
+    "query": Object {
+      "bool": Object {
+        "filter": Array [
+          Object {
+            "range": Object {
+              "Arrival Date": Object {
+                "gte": "1512938867",
+                "lte": "1544475436",
+              },
+            },
+          },
+        ],
+        "must": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match": Object {
+                    "Consignee.Name": Object {
+                      "minimum_should_match": "75%",
+                      "query": "apple",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "exists": Object {
+              "field": "Consignee.Name",
+            },
+          },
+        ],
+        "must_not": Array [],
+      },
+    },
+    "size": 0,
+    "track_scores": true,
+  },
+  "index": "us_import",
+  "type": "shipments",
+}
+`;
+
+exports[`Search Analytics AnalyticsBuilder build a query and aggregate term  should build a query for the analytics as a aggregate term origin_countries 1`] = `
+Object {
+  "body": Object {
+    "aggs": Object {
+      "shipmentAggregate": Object {
+        "aggs": Object {
+          "containers_count": Object {
+            "sum": Object {
+              "field": "Number of Containers",
+            },
+          },
+          "weight_kg": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+          "weight_lb": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+        },
+        "terms": Object {
+          "field": "Country of Origin.untouched",
+          "order": Array [
+            Object {
+              "_count": "desc",
+            },
+          ],
+          "size": 5,
+        },
+      },
+    },
+    "from": 0,
+    "query": Object {
+      "bool": Object {
+        "filter": Array [
+          Object {
+            "range": Object {
+              "Arrival Date": Object {
+                "gte": "1512938867",
+                "lte": "1544475436",
+              },
+            },
+          },
+        ],
+        "must": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match": Object {
+                    "Consignee.Name": Object {
+                      "minimum_should_match": "75%",
+                      "query": "apple",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "exists": Object {
+              "field": "Consignee.Name",
+            },
+          },
+        ],
+        "must_not": Array [],
+      },
+    },
+    "size": 0,
+    "track_scores": true,
+  },
+  "index": "us_import",
+  "type": "shipments",
+}
+`;
+
+exports[`Search Analytics AnalyticsBuilder build a query and aggregate term  should build a query for the analytics as a aggregate term shippers 1`] = `
+Object {
+  "body": Object {
+    "aggs": Object {
+      "shipmentAggregate": Object {
+        "aggs": Object {
+          "containers_count": Object {
+            "sum": Object {
+              "field": "Number of Containers",
+            },
+          },
+          "weight_kg": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+          "weight_lb": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+        },
+        "terms": Object {
+          "field": "Shipper.Name.untouched",
+          "order": Array [
+            Object {
+              "_count": "desc",
+            },
+          ],
+          "size": 5,
+        },
+      },
+    },
+    "from": 0,
+    "query": Object {
+      "bool": Object {
+        "filter": Array [
+          Object {
+            "range": Object {
+              "Arrival Date": Object {
+                "gte": "1512938867",
+                "lte": "1544475436",
+              },
+            },
+          },
+        ],
+        "must": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match": Object {
+                    "Consignee.Name": Object {
+                      "minimum_should_match": "75%",
+                      "query": "apple",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "exists": Object {
+              "field": "Consignee.Name",
+            },
+          },
+        ],
+        "must_not": Array [],
+      },
+    },
+    "size": 0,
+    "track_scores": true,
+  },
+  "index": "us_import",
+  "type": "shipments",
+}
+`;
+
+exports[`Search Analytics AnalyticsBuilder build a query and aggregate term  should build a query for the analytics as a aggregate term states 1`] = `
+Object {
+  "body": Object {
+    "aggs": Object {
+      "shipmentAggregate": Object {
+        "aggs": Object {
+          "containers_count": Object {
+            "sum": Object {
+              "field": "Number of Containers",
+            },
+          },
+          "weight_kg": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+          "weight_lb": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+        },
+        "terms": Object {
+          "field": "Consignee.Cleaned Address Breakdown.StateName.untouched",
+          "order": Array [
+            Object {
+              "_count": "desc",
+            },
+          ],
+          "size": 5,
+        },
+      },
+    },
+    "from": 0,
+    "query": Object {
+      "bool": Object {
+        "filter": Array [
+          Object {
+            "range": Object {
+              "Arrival Date": Object {
+                "gte": "1512938867",
+                "lte": "1544475436",
+              },
+            },
+          },
+        ],
+        "must": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match": Object {
+                    "Consignee.Name": Object {
+                      "minimum_should_match": "75%",
+                      "query": "apple",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "exists": Object {
+              "field": "Consignee.Name",
+            },
+          },
+        ],
+        "must_not": Array [],
+      },
+    },
+    "size": 0,
+    "track_scores": true,
+  },
+  "index": "us_import",
+  "type": "shipments",
+}
+`;
+
+exports[`Search Analytics AnalyticsBuilder build a query and aggregate term  should build a query for the analytics as a aggregate term us_ports 1`] = `
+Object {
+  "body": Object {
+    "aggs": Object {
+      "shipmentAggregate": Object {
+        "aggs": Object {
+          "containers_count": Object {
+            "sum": Object {
+              "field": "Number of Containers",
+            },
+          },
+          "weight_kg": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+          "weight_lb": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+        },
+        "terms": Object {
+          "field": "Port of Unlading.untouched",
+          "order": Array [
+            Object {
+              "_count": "desc",
+            },
+          ],
+          "size": 5,
+        },
+      },
+    },
+    "from": 0,
+    "query": Object {
+      "bool": Object {
+        "filter": Array [
+          Object {
+            "range": Object {
+              "Arrival Date": Object {
+                "gte": "1512938867",
+                "lte": "1544475436",
+              },
+            },
+          },
+        ],
+        "must": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match": Object {
+                    "Consignee.Name": Object {
+                      "minimum_should_match": "75%",
+                      "query": "apple",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "exists": Object {
+              "field": "Consignee.Name",
+            },
+          },
+        ],
+        "must_not": Array [],
+      },
+    },
+    "size": 0,
+    "track_scores": true,
+  },
+  "index": "us_import",
+  "type": "shipments",
+}
+`;
+
+exports[`Search Analytics AnalyticsBuilder build a query and aggregate term  should sort by according to the default field (analyticsAggregateFields) 1`] = `
+Object {
+  "body": Object {
+    "aggs": Object {
+      "shipmentAggregate": Object {
+        "aggs": Object {
+          "containers_count": Object {
+            "sum": Object {
+              "field": "Number of Containers",
+            },
+          },
+          "weight_kg": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+          "weight_lb": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+        },
+        "terms": Object {
+          "field": "Consignee.Name.untouched",
+          "order": Array [
+            Object {
+              "weight_lb": "desc",
+            },
+          ],
+          "size": 5,
+        },
+      },
+    },
+    "from": 0,
+    "query": Object {
+      "bool": Object {
+        "filter": Array [
+          Object {
+            "range": Object {
+              "Arrival Date": Object {
+                "gte": "1512938867",
+                "lte": "1544475436",
+              },
+            },
+          },
+        ],
+        "must": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match": Object {
+                    "Consignee.Name": Object {
+                      "minimum_should_match": "75%",
+                      "query": "apple",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "exists": Object {
+              "field": "Consignee.Name",
+            },
+          },
+        ],
+        "must_not": Array [],
+      },
+    },
+    "size": 0,
+    "track_scores": true,
+  },
+  "index": "us_import",
+  "type": "shipments",
+}
+`;
+
+exports[`Search Analytics AnalyticsBuilder build a query and aggregate term  should sort by shipments_count desc (analyticsAggregateFields) 1`] = `
+Object {
+  "body": Object {
+    "aggs": Object {
+      "shipmentAggregate": Object {
+        "aggs": Object {
+          "containers_count": Object {
+            "sum": Object {
+              "field": "Number of Containers",
+            },
+          },
+          "weight_kg": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+          "weight_lb": Object {
+            "sum": Object {
+              "field": "Weight",
+            },
+          },
+        },
+        "terms": Object {
+          "field": "Consignee.Name.untouched",
+          "order": Array [
+            Object {
+              "_count": "desc",
+            },
+          ],
+          "size": 5,
+        },
+      },
+    },
+    "from": 0,
+    "query": Object {
+      "bool": Object {
+        "filter": Array [
+          Object {
+            "range": Object {
+              "Arrival Date": Object {
+                "gte": "1512938867",
+                "lte": "1544475436",
+              },
+            },
+          },
+        ],
+        "must": Array [
+          Object {
+            "bool": Object {
+              "should": Array [
+                Object {
+                  "match": Object {
+                    "Consignee.Name": Object {
+                      "minimum_should_match": "75%",
+                      "query": "apple",
+                    },
+                  },
+                },
+              ],
+            },
+          },
+          Object {
+            "exists": Object {
+              "field": "Consignee.Name",
+            },
+          },
+        ],
+        "must_not": Array [],
+      },
+    },
+    "size": 0,
+    "track_scores": true,
+  },
+  "index": "us_import",
+  "type": "shipments",
+}
+`;

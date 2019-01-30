@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SummaryBuilder buildAggregates should build aggregates from fieldMapping 1`] = `
+Object {
+  "no_of_containers": Object {
+    "sum": Object {
+      "field": "Number of Containers",
+    },
+  },
+  "weight": Object {
+    "sum": Object {
+      "field": "Weight",
+    },
+  },
+}
+`;
+
+exports[`SummaryBuilder buildQuery should build query 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "index": "us_import",
+    },
+    Object {
+      "aggregations": Object {
+        "no_of_containers": Object {
+          "sum": Object {
+            "field": "Number of Containers",
+          },
+        },
+        "weight": Object {
+          "sum": Object {
+            "field": "Weight",
+          },
+        },
+      },
+      "query": Object {
+        "bool": Object {
+          "filter": Array [
+            Object {
+              "bool": Object {
+                "should": Array [
+                  Object {
+                    "match_phrase": Object {
+                      "Consignee.Cleaned Address Breakdown.StateName.untouched": "CA",
+                    },
+                  },
+                  Object {
+                    "match_phrase": Object {
+                      "Consignee.Cleaned Address Breakdown.StateName.untouched": "WA",
+                    },
+                  },
+                ],
+              },
+            },
+            Object {
+              "range": Object {
+                "Arrival Date": Object {
+                  "gte": 1534867200,
+                  "lte": 1535471999,
+                },
+              },
+            },
+          ],
+          "must": Array [
+            Object {
+              "bool": Object {
+                "should": Array [
+                  Object {
+                    "match": Object {
+                      "Consignee.Name": Object {
+                        "minimum_should_match": "75%",
+                        "query": "apple",
+                      },
+                    },
+                  },
+                  Object {
+                    "match": Object {
+                      "Consignee.Name": Object {
+                        "minimum_should_match": "75%",
+                        "query": "orange",
+                      },
+                    },
+                  },
+                ],
+              },
+            },
+            Object {
+              "exists": Object {
+                "field": "Consignee.Name",
+              },
+            },
+          ],
+          "must_not": Array [
+            Object {
+              "match_phrase": Object {
+                "Consignee.Cleaned Address Breakdown.PlaceName": "IRVINE",
+              },
+            },
+          ],
+        },
+      },
+      "size": 0,
+    },
+    Object {
+      "index": "us_import",
+    },
+    Object {
+      "aggregations": Object {
+        "no_of_containers": Object {
+          "sum": Object {
+            "field": "Number of Containers",
+          },
+        },
+        "weight": Object {
+          "sum": Object {
+            "field": "Weight",
+          },
+        },
+      },
+      "query": Object {
+        "bool": Object {
+          "filter": Array [
+            Object {
+              "bool": Object {
+                "should": Array [
+                  Object {
+                    "match_phrase": Object {
+                      "Consignee.Cleaned Address Breakdown.StateName.untouched": "CA",
+                    },
+                  },
+                  Object {
+                    "match_phrase": Object {
+                      "Consignee.Cleaned Address Breakdown.StateName.untouched": "WA",
+                    },
+                  },
+                ],
+              },
+            },
+            Object {
+              "range": Object {
+                "Arrival Date": Object {
+                  "gte": 1535472000,
+                  "lte": 1536076799,
+                },
+              },
+            },
+          ],
+          "must": Array [
+            Object {
+              "bool": Object {
+                "should": Array [
+                  Object {
+                    "match": Object {
+                      "Consignee.Name": Object {
+                        "minimum_should_match": "75%",
+                        "query": "apple",
+                      },
+                    },
+                  },
+                  Object {
+                    "match": Object {
+                      "Consignee.Name": Object {
+                        "minimum_should_match": "75%",
+                        "query": "orange",
+                      },
+                    },
+                  },
+                ],
+              },
+            },
+            Object {
+              "exists": Object {
+                "field": "Consignee.Name",
+              },
+            },
+          ],
+          "must_not": Array [
+            Object {
+              "match_phrase": Object {
+                "Consignee.Cleaned Address Breakdown.PlaceName": "IRVINE",
+              },
+            },
+          ],
+        },
+      },
+      "size": 0,
+    },
+    Object {
+      "index": "us_import",
+    },
+    Object {
+      "aggregations": Object {
+        "no_of_containers": Object {
+          "sum": Object {
+            "field": "Number of Containers",
+          },
+        },
+        "weight": Object {
+          "sum": Object {
+            "field": "Weight",
+          },
+        },
+      },
+      "query": Object {
+        "bool": Object {
+          "filter": Array [
+            Object {
+              "bool": Object {
+                "should": Array [
+                  Object {
+                    "match_phrase": Object {
+                      "Consignee.Cleaned Address Breakdown.StateName.untouched": "CA",
+                    },
+                  },
+                  Object {
+                    "match_phrase": Object {
+                      "Consignee.Cleaned Address Breakdown.StateName.untouched": "WA",
+                    },
+                  },
+                ],
+              },
+            },
+            Object {
+              "range": Object {
+                "Arrival Date": Object {
+                  "gte": 1536076800,
+                  "lte": 1536192000,
+                },
+              },
+            },
+          ],
+          "must": Array [
+            Object {
+              "bool": Object {
+                "should": Array [
+                  Object {
+                    "match": Object {
+                      "Consignee.Name": Object {
+                        "minimum_should_match": "75%",
+                        "query": "apple",
+                      },
+                    },
+                  },
+                  Object {
+                    "match": Object {
+                      "Consignee.Name": Object {
+                        "minimum_should_match": "75%",
+                        "query": "orange",
+                      },
+                    },
+                  },
+                ],
+              },
+            },
+            Object {
+              "exists": Object {
+                "field": "Consignee.Name",
+              },
+            },
+          ],
+          "must_not": Array [
+            Object {
+              "match_phrase": Object {
+                "Consignee.Cleaned Address Breakdown.PlaceName": "IRVINE",
+              },
+            },
+          ],
+        },
+      },
+      "size": 0,
+    },
+  ],
+}
+`;

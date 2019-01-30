@@ -1,0 +1,16 @@
+{
+  "testResultsProcessor": "jest-stare",
+  "reporters": ["default"],
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx}",
+    "lib/**/*.{js,jsx}",
+    "!src/server.js"
+  ],
+  "coverageDirectory": "reports/latest/coverage",
+  "coverageReporters": ["json", "html"],
+  "moduleNameMapper": {
+    "^~/(.*)$": "<rootDir>/src/$1",
+    "^qb/@/(.*)$": "<rootDir>/lib/$1"
+  }
+}

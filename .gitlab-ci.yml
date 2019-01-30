@@ -1,0 +1,16 @@
+stages:
+  - build
+
+build:
+  image: node:8.11.4
+  stage: build
+  before_script:
+    - bash lib/gitlab-install-yarn.sh > /dev/null 2>&1
+    - cp .env.example .env
+    - eval $(ssh-agent -s)
+    - mkdir -p ~/.ssh
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - echo "$GITLAB_DEPLOY_PRIVATE_KEY" >> ~/.ssh/id_rsa && chmod 0600 ~/.ssh/id_rsa
+    - yarn install
+  script:
+    - yarn test

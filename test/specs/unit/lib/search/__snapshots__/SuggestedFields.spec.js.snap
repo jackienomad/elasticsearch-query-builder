@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuggestedFields class buildQuery should return an msearch query 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "index": "us_import_consignee",
+      "type": "suggestion",
+    },
+    Object {
+      "query": Object {
+        "bool": Object {
+          "filter": Object {
+            "range": Object {
+              "ArrivalDate": Object {
+                "gte": 1542250403,
+                "lte": 1542250403,
+              },
+            },
+          },
+          "must": Object {
+            "match_phrase": Object {
+              "Suggestion": "apple",
+            },
+          },
+          "must_not": Object {
+            "match": Object {
+              "Suggestion.untouched": "apple",
+            },
+          },
+        },
+      },
+      "size": 0,
+    },
+    Object {
+      "index": "us_import_shipper",
+      "type": "suggestion",
+    },
+    Object {
+      "query": Object {
+        "bool": Object {
+          "filter": Object {
+            "range": Object {
+              "ArrivalDate": Object {
+                "gte": 1542250403,
+                "lte": 1542250403,
+              },
+            },
+          },
+          "must": Object {
+            "match_phrase": Object {
+              "Suggestion": "apple",
+            },
+          },
+          "must_not": Object {
+            "match": Object {
+              "Suggestion.untouched": "apple",
+            },
+          },
+        },
+      },
+      "size": 0,
+    },
+    Object {
+      "index": "us_import_marks_and_numbers",
+      "type": "suggestion",
+    },
+    Object {
+      "query": Object {
+        "bool": Object {
+          "filter": Object {
+            "range": Object {
+              "ArrivalDate": Object {
+                "gte": 1542250403,
+                "lte": 1542250403,
+              },
+            },
+          },
+          "must": Object {
+            "match_phrase": Object {
+              "Suggestion": "apple",
+            },
+          },
+          "must_not": Object {
+            "match": Object {
+              "Suggestion.untouched": "apple",
+            },
+          },
+        },
+      },
+      "size": 0,
+    },
+    Object {
+      "index": "us_import_product_keywords",
+      "type": "suggestion",
+    },
+    Object {
+      "query": Object {
+        "bool": Object {
+          "filter": Object {
+            "range": Object {
+              "ArrivalDate": Object {
+                "gte": 1542250403,
+                "lte": 1542250403,
+              },
+            },
+          },
+          "must": Object {
+            "match_phrase": Object {
+              "Suggestion": "apple",
+            },
+          },
+          "must_not": Object {
+            "match": Object {
+              "Suggestion.untouched": "apple",
+            },
+          },
+        },
+      },
+      "size": 0,
+    },
+  ],
+}
+`;

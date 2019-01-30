@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`class ShipmentCount static method buildQuery should return a correct elasticsearch query 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "index": "us_import",
+    },
+    Object {
+      "query": Object {
+        "bool": Object {
+          "filter": Array [
+            Object {
+              "bool": Object {
+                "must": Array [
+                  Object {
+                    "term": Object {
+                      "Consignee._id": "28a79d28abfe3f78fed5f541e9e28a6d",
+                    },
+                  },
+                ],
+              },
+            },
+            Object {
+              "range": Object {
+                "Arrival Date": Object {
+                  "gte": 1480762061,
+                },
+              },
+            },
+            Object {
+              "range": Object {
+                "Arrival Date": Object {
+                  "lte": 1536192000,
+                },
+              },
+            },
+          ],
+        },
+      },
+      "size": 0,
+    },
+    Object {
+      "index": "us_import",
+    },
+    Object {
+      "query": Object {
+        "bool": Object {
+          "filter": Array [
+            Object {
+              "bool": Object {
+                "must": Array [
+                  Object {
+                    "term": Object {
+                      "Shipper._id": "28a79d28abfe3f78fed5f541e9e28a6d",
+                    },
+                  },
+                ],
+              },
+            },
+            Object {
+              "range": Object {
+                "Arrival Date": Object {
+                  "gte": 1480762061,
+                },
+              },
+            },
+            Object {
+              "range": Object {
+                "Arrival Date": Object {
+                  "lte": 1536192000,
+                },
+              },
+            },
+          ],
+        },
+      },
+      "size": 0,
+    },
+    Object {
+      "index": "us_import",
+    },
+    Object {
+      "query": Object {
+        "bool": Object {
+          "filter": Array [
+            Object {
+              "bool": Object {
+                "must": Array [
+                  Object {
+                    "term": Object {
+                      "Consignee._id": "28a79d28abfe3f78fed5f541e9e28a6d",
+                    },
+                  },
+                  Object {
+                    "term": Object {
+                      "Shipper._id": "28a79d28abfe3f78fed5f541e9e28a6d",
+                    },
+                  },
+                ],
+              },
+            },
+            Object {
+              "range": Object {
+                "Arrival Date": Object {
+                  "gte": 1480762061,
+                },
+              },
+            },
+            Object {
+              "range": Object {
+                "Arrival Date": Object {
+                  "lte": 1536192000,
+                },
+              },
+            },
+          ],
+        },
+      },
+      "size": 0,
+    },
+  ],
+}
+`;
+
+exports[`class ShipmentCount static method formatResponse should format the elasticsearch response to expected format 1`] = `
+Array [
+  Object {
+    "from": 1480790861,
+    "to": 1536220800,
+    "totalShipments": 27,
+    "traderType": "consignee",
+  },
+  Object {
+    "from": 1480790861,
+    "to": 1536220800,
+    "totalShipments": 0,
+    "traderType": "shipper",
+  },
+  Object {
+    "from": 1480790861,
+    "to": 1536220800,
+    "totalShipments": 0,
+    "traderType": "internal",
+  },
+]
+`;

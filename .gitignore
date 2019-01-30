@@ -1,0 +1,13 @@
+# dependencies
+node_modules
+
+.dist
+.vscode
+
+public
+.env
+
+.DS_Store
+coverage
+
+reports
